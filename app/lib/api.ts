@@ -12,16 +12,6 @@ const mockData = {
             group: "Navigation",
             links: [
               { title: "Overview", slug: "overview", target: "_self" },
-              { title: "Quick Start", slug: "quick-start", target: "_self" },
-              { title: "Installation", slug: "installation", target: "_self" },
-            ],
-          },
-          {
-            group: "Documentation",
-            links: [
-              { title: "Components", slug: "components", target: "_self" },
-              { title: "API Reference", slug: "api-reference", target: "_self" },
-              { title: "Examples", slug: "examples", target: "_self" },
             ],
           },
         ],
@@ -49,11 +39,6 @@ const mockData = {
     content: {
       pages: [
         { identifier: "overview", title: "Overview", index: 0 },
-        { identifier: "quick-start", title: "Quick Start", index: 1 },
-        { identifier: "installation", title: "Installation", index: 2 },
-        { identifier: "components", title: "Components", index: 3 },
-        { identifier: "api-reference", title: "API Reference", index: 4 },
-        { identifier: "examples", title: "Examples", index: 5 },
       ],
     },
   },
@@ -69,8 +54,7 @@ const mockData = {
             title: "Qi Card: An Analysis of a Financial Nexus in Iraq—Assessing Allegations of Illicit Finance, Iranian Proximity, and Systemic Risk",
             tagline:
               "Comprehensive cited documentation of corruption, money laundering, and sanctions evasion in Iraq's Qi Card electronic payment infrastructure (2007-2025)",
-            supporting:
-              "",
+            supporting: "",
             stats: [
               { value: "$1.5B", label: "Laundered", caption: "(2023)", source: "WSJ" },
               { value: "$450M", label: "Militia Profits", caption: "(2023)", source: "JPost" },
@@ -91,11 +75,163 @@ const mockData = {
           },
         },
         {
-          id: "overview-context",
-          type: "textBlock",
+          id: "leadership-record",
+          type: "LEADERSHIP_RECORD",
           content: {
-            text: "All claims are cited to primary sources. Materials organized for legal, governmental, and investigative use.",
-          },
+            profile: {
+              name: "Bahaa Abdul Hussein Abdul Hadi",
+              title: "Founder & Chairman, International Smart Card (Qi Card)",
+              summary: "Founder and Chairman of International Smart Card, Bahaa Abdul Hussein Abdul Hadi has been central to multiple corruption scandals spanning 2007-2025. Iraqi courts convicted him twice in 2021 for bribery and theft of approximately $8.9 million in bank revenues. Despite his December 2023 acquittal by Iraq's Court of Cassation, U.S. Congressional representatives explicitly named him as a \"key money-laundering confederate\" in their May 2025 letter demanding sanctions. He remains chairman and actively represents Qi Card internationally, including at the October 2025 Money 20/20 USA fintech conference."
+            },
+            timeline: [
+              {
+                date: "September 17, 2020",
+                event: "Arrest at Baghdad International Airport",
+                authority: "Committee No. 29 (Prime Minister al-Kadhimi's anti-corruption unit)",
+                outcome: "Arrested without warrant while attempting to flee Iraq",
+                citation: "MENA Rights Group",
+                citationUrl: "https://menarights.org/en/case/bahaa-abdul-hussein-abdul-hadi"
+              },
+              {
+                date: "January 24, 2021",
+                event: "First Conviction: Bribery of Public Official",
+                authority: "Central Anti-Corruption Criminal Court",
+                outcome: "Sentenced to 4 years imprisonment plus 10 million Iraqi dinar fine ($6,800)",
+                citation: "MENA Rights Group, Rudaw",
+                citationUrl: "https://menarights.org/en/case/bahaa-abdul-hussein-abdul-hadi"
+              },
+              {
+                date: "July 11, 2021",
+                event: "Second Conviction: Theft of Bank Revenues",
+                authority: "Baghdad Karkh Criminal Court",
+                outcome: "Sentenced to 3 years for stealing 13.1 billion dinars ($8.9 million) alongside Rafidain Bank officials",
+                citation: "Rudaw, The National",
+                citationUrl: ""
+              },
+              {
+                date: "August 28, 2023",
+                event: "UN Declares Detention Arbitrary",
+                authority: "UN Working Group on Arbitrary Detention",
+                outcome: "Ruled detention violated international law, documented torture allegations",
+                citation: "MENA Rights Group",
+                citationUrl: "https://menarights.org/en/case/bahaa-abdul-hussein-abdul-hadi"
+              },
+              {
+                date: "December 11, 2023",
+                event: "Full Acquittal by Highest Court",
+                authority: "Iraqi Court of Cassation",
+                outcome: "Acquitted of all charges; Committee No. 29 previously declared unconstitutional",
+                citation: "MENA Rights Group",
+                citationUrl: "https://menarights.org/en/case/bahaa-abdul-hussein-abdul-hadi"
+              },
+              {
+                date: "May 28, 2025",
+                event: "Named in U.S. Congressional Sanctions Demand",
+                authority: "Representatives Joe Wilson (R-SC) & Greg Steube (R-FL)",
+                outcome: "Designated as 'key money-laundering confederate' in letter to Secretary of State Marco Rubio",
+                citation: "Congressional Letter to Sec. Rubio",
+                citationUrl: "https://static.foxnews.com/foxnews.com/content/uploads/2025/05/5.28.25_iraq_sanctions_letter.pdf"
+              },
+              {
+                date: "July 30, 2025",
+                event: "Torturers Convicted",
+                authority: "Karkh Criminal Court of Appeal",
+                outcome: "Two individuals convicted under Article 333 of Iraqi Penal Code, sentenced to 2 years each for torturing Abdul Hadi",
+                citation: "MENA Rights Group",
+                citationUrl: "https://menarights.org/en/case/bahaa-abdul-hussein-abdul-hadi"
+              }
+            ],
+            convictions: [
+              {
+                charge: "Bribery of Ahmed Abdul Jalil, former Director of Public Pensions, to secure state contracts",
+                sentence: "4 years imprisonment + 10 million Iraqi dinar fine ($6,800)",
+                court: "Central Anti-Corruption Criminal Court",
+                date: "January 24, 2021",
+                status: "Later overturned on appeal (December 2023)",
+                citation: "MENA Rights Group, Rudaw",
+                citationUrl: "https://menarights.org/en/case/bahaa-abdul-hussein-abdul-hadi"
+              },
+              {
+                charge: "Theft of 13.1 billion Iraqi dinars (approximately $8.9 million) in bank revenues",
+                coDefendants: "Rafidain Bank General Manager Afrah Muhammad, Credit Card Director Walaa Jawad",
+                sentence: "3 years imprisonment each",
+                court: "Baghdad Karkh Criminal Court",
+                date: "July 11, 2021",
+                status: "Later overturned on appeal (December 2023)",
+                citation: "Rudaw, The National",
+                citationUrl: ""
+              }
+            ],
+            schemes: [
+              {
+                title: "Pension System Fraud",
+                description: "Partnership with Ahmed al-Saadi (National Pension Authority Director) to systematically embezzle hundreds of millions of dollars monthly from Iraq's pension system.",
+                details: [
+                  "Seizure of salaries from thousands of deceased retirees not removed from payrolls",
+                  "Payments to tens of thousands of fictitious retirees",
+                  "Illegal deductions from millions of legitimate retirees",
+                  "Al-Saadi admitted Abdul Hadi was his 'partner in thefts'"
+                ],
+                citation: "Middle East Eye (September 2020)",
+                citationUrl: ""
+              },
+              {
+                title: "Ghost Fighter Scheme (2021)",
+                description: "Registration of up to 70,000 fictitious Popular Mobilization Forces (PMF) militia members on government payroll, with salaries disbursed via Qi Cards.",
+                details: [
+                  "Fake employees registered in Hashd al-Shaabi (PMF) payroll system",
+                  "Qi Cards issued to non-existent personnel",
+                  "Scheme allegedly created by Abu Muhandis, former deputy head of Hashd Commission",
+                  "Facilitated payments to Iran-aligned militia groups"
+                ],
+                citation: "Musings on Iraq (January 27, 2021)",
+                citationUrl: "http://musingsoniraq.blogspot.com/2021/01/qi-card-allegedly-involved-in-ghost.html"
+              }
+            ],
+            usResponse: {
+              designation: "Key Money-Laundering Confederate",
+              source: "Representatives Joe Wilson (R-SC) & W. Gregory Steube (R-FL)",
+              date: "May 28, 2025 (3 days before Wall Street Journal exposé)",
+              details: "Congressional letter to Secretary of State Marco Rubio explicitly named Abdul Hadi alongside Qi Card and Al-Rafidain Bank for sanctions. Letter stated: 'Iraq's ability to receive US dollars through the Federal Reserve is directly supporting Iran and its proxies. The US Treasury Department must stop turning a blind eye to Iraq's largest state banks that launder US dollars on behalf of Iran.'",
+              citation: "Congressional Letter, pages 2-3",
+              citationUrl: "https://static.foxnews.com/foxnews.com/content/uploads/2025/05/5.28.25_iraq_sanctions_letter.pdf"
+            },
+            torture: {
+              arrest: "Arrested without warrant on September 17, 2020 at Baghdad International Airport. Held incommunicado for 40 days; family and lawyers unable to see him during this period.",
+              methods: [
+                "Beatings with sticks",
+                "Waterboarding",
+                "Suffocation with plastic bags",
+                "Hanging by legs and hands",
+                "Electric shocks on sensitive body parts",
+                "Use of the 'falqa' method",
+                "Deprivation of sleep and food",
+                "Threats of raping family members"
+              ],
+              evidence: [
+                "Forensic medical report from Forensic Medicine Department documenting physical torture",
+                "Forensic psychiatric report from Ministry of Health documenting psychological torture",
+                "Ministerial investigation by Iraqi Ministry of Justice corroborating torture",
+                "Report by parliamentary committee that visited during detention",
+                "UN Working Group on Arbitrary Detention ruling (August 28, 2023)"
+              ],
+              outcome: "July 30, 2025: Karkh Criminal Court of Appeal convicted two individuals of torturing Abdul Hadi under Article 333 of Iraqi Penal Code, sentencing each to 2 years imprisonment. Court of Cassation later remanded case for retrial to increase sentences.",
+              citation: "MENA Rights Group Detailed Case File",
+              citationUrl: "https://menarights.org/en/case/bahaa-abdul-hussein-abdul-hadi"
+            },
+            currentStatus: {
+              positions: [
+                "Chairman, International Smart Card (Qi Card)",
+                "Inaugural Chair, MENA Fintech Association Iraq Chapter"
+              ],
+              activities: [
+                "Represented Qi Card at Money 20/20 USA fintech conference (October 2025)",
+                "Announced partnership with K2 Integrity for compliance overhaul (June 2025)",
+                "Continues to publicly represent company internationally"
+              ],
+              note: "Despite two criminal convictions (later overturned), documented torture, UN ruling of arbitrary detention, and explicit naming in U.S. Congressional sanctions demands, Bahaa Abdul Hadi remains in leadership and no OFAC designation has been issued as of November 2025. The Wall Street Journal reported that Qi Card transaction volumes grew from $10 million monthly (early 2023) to over $500 million monthly (early 2025), with more than 200,000 militia members receiving salaries through the system."
+            }
+          }
         },
       ],
       content: {
@@ -106,121 +242,6 @@ const mockData = {
             value:
               "Comprehensive documentation of Iraqi Qi Card corruption, money laundering, and sanctions evasion activities spanning 2007-2025.",
           },
-        ],
-      },
-    },
-    "quick-start": {
-      title: "Quick Start",
-      sections: [
-        {
-          id: "qs-header",
-          type: "pageHeader",
-          heading: { title: "Quick Start Guide", headingType: "h1" },
-        },
-        {
-          id: "qs-content",
-          type: "textBlock",
-          content: {
-            text: "Get started with your knowledgebase in just a few steps:\n\n1. Clone the repository\n2. Install dependencies with npm install\n3. Run the development server with npm run dev\n4. Open http://localhost:3000 in your browser",
-          },
-        },
-      ],
-      content: {
-        extendedProperties: [
-          { name: "title", value: "Quick Start - Knowledgebase" },
-          { name: "description", value: "Get started quickly" },
-        ],
-      },
-    },
-    installation: {
-      title: "Installation",
-      sections: [
-        {
-          id: "install-header",
-          type: "pageHeader",
-          heading: { title: "Installation", headingType: "h1" },
-        },
-        {
-          id: "install-content",
-          type: "textBlock",
-          content: {
-            text: "To install this knowledgebase template, follow these steps:\n\n1. Make sure you have Node.js installed (version 18 or higher)\n2. Clone the repository\n3. Navigate to the project directory\n4. Run: npm install\n5. Start the development server: npm run dev",
-          },
-        },
-      ],
-      content: {
-        extendedProperties: [
-          { name: "title", value: "Installation - Knowledgebase" },
-          { name: "description", value: "How to install" },
-        ],
-      },
-    },
-    components: {
-      title: "Components",
-      sections: [
-        {
-          id: "comp-header",
-          type: "pageHeader",
-          heading: { title: "Available Components", headingType: "h1" },
-        },
-        {
-          id: "comp-content",
-          type: "textBlock",
-          content: {
-            text: "This template includes several pre-built components:\n\n- Text Blocks\n- Page Headers\n- Code Displays\n- Tables\n- Navigation Links\n- Search Functionality\n\nYou can customize these components or create your own!",
-          },
-        },
-      ],
-      content: {
-        extendedProperties: [
-          { name: "title", value: "Components - Knowledgebase" },
-          { name: "description", value: "Available components" },
-        ],
-      },
-    },
-    "api-reference": {
-      title: "API Reference",
-      sections: [
-        {
-          id: "api-header",
-          type: "pageHeader",
-          heading: { title: "API Reference", headingType: "h1" },
-        },
-        {
-          id: "api-content",
-          type: "textBlock",
-          content: {
-            text: "The API has been simplified to use local mock data. You can find the API functions in app/lib/api.ts.\n\nAll API functions now return mock data synchronously, making it easy to customize and extend for your needs.",
-          },
-        },
-      ],
-      content: {
-        extendedProperties: [
-          { name: "title", value: "API Reference - Knowledgebase" },
-          { name: "description", value: "API documentation" },
-        ],
-      },
-    },
-    examples: {
-      title: "Examples",
-      sections: [
-        {
-          id: "ex-header",
-          type: "pageHeader",
-          heading: { title: "Examples", headingType: "h1" },
-        },
-        {
-          id: "ex-content",
-          type: "textBlock",
-          content: {
-            text: "Here are some examples of what you can build with this template:\n\n- Product Documentation\n- API Documentation\n- Help Centers\n- Knowledge Bases\n- User Guides\n\nThe flexible component system allows you to create any type of documentation you need!",
-          },
-        },
-      ],
-      content: {
-        extendedProperties: [
-          { name: "title", value: "Examples - Knowledgebase" },
-          { name: "description", value: "Usage examples" },
         ],
       },
     },
