@@ -16,7 +16,7 @@ export default async function Body({ params }: IBody) {
 
   return (
     <>
-      <main className="w-full lg:w-3/4 xl:w-2/3 py-4 px-8">
+      <main className="w-full">
         {isGuide ? (
           <article>
             <div className="text-3xl font-bold my-3">{page?.name}</div>
