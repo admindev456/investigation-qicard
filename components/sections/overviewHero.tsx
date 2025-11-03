@@ -79,14 +79,14 @@ const OverviewHero: React.FC<{ section: OverviewHeroSection }> = ({ section }) =
           <div className="mt-6 sm:mt-8 space-y-4 sm:space-y-5 lg:-mx-96 lg:px-96">
             {/* Intro Paragraph */}
             <p className="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800 max-w-3xl lg:max-w-none">
-              This report provides a comprehensive analysis of International Smart Card (ISC), the Iraqi financial technology company operating as Qi Card. It assesses the company's strategic position within Iraq's economy, the persistent and credible allegations of its exploitation for illicit finance, and its potential connections to the Islamic Republic of Iran and its network of regional proxies.
+              This report provides a comprehensive analysis of International Smart Card (ISC), the Iraqi financial technology company operating as Qi Card. It assesses the company&apos;s strategic position within Iraq&apos;s economy, the persistent and credible allegations of its exploitation for illicit finance, and its potential connections to the Islamic Republic of Iran and its network of regional proxies.
             </p>
 
             {/* Background Paragraph */}
             <p className="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800 max-w-3xl lg:max-w-none">
-              Qi Card was founded in 2007 through a public-private partnership involving Iraq's two largest state-owned banks, Rafidain Bank and Rasheed Bank, along with the Iraqi Electronic Payment System.
+              Qi Card was founded in 2007 through a public-private partnership involving Iraq&apos;s two largest state-owned banks, Rafidain Bank and Rasheed Bank, along with the Iraqi Electronic Payment System.
               <span className="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">
-                By 2025, Qi Card had grown to become Iraq's dominant payment platform, serving over 11 million cardholders with approximately 23,000 point-of-sale terminals across every Iraqi governorate.
+                By 2025, Qi Card had grown to become Iraq&apos;s dominant payment platform, serving over 11 million cardholders with approximately 23,000 point-of-sale terminals across every Iraqi governorate.
                 <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">
                   Citation [1]
                 </span>
@@ -103,7 +103,7 @@ const OverviewHero: React.FC<{ section: OverviewHeroSection }> = ({ section }) =
 
             {/* Conclusion Paragraph */}
             <p className="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800 max-w-3xl lg:max-w-none">
-              Drawing on an extensive corpus of verified sources and in-depth analysis, this report will demonstrate that while Qi Card plays a vital role in Iraq's modern financial system, it has also become a key hub for corruption, money laundering, and the financing of designated terrorist organizations.
+              Drawing on an extensive corpus of verified sources and in-depth analysis, this report will demonstrate that while Qi Card plays a vital role in Iraq&apos;s modern financial system, it has also become a key hub for corruption, money laundering, and the financing of designated terrorist organizations.
             </p>
           </div>
         </div>
