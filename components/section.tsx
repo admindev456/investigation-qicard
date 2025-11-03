@@ -7,6 +7,7 @@ import NavLink from "./sections/navLink";
 import CmsImage from "./sections/cmsImage";
 import Video from "./sections/video";
 import PageHeader from "./sections/pageHeader";
+import OverviewHero from "./sections/overviewHero";
 import TextBlock from "./sections/textBlock";
 import OrderedList from "./sections/orderedList";
 import AuthorTable from "./sections/authorTable";
@@ -32,6 +33,7 @@ const sections: { [key: string]: React.FC<any> } = {
   AUTHOR_TABLE: AuthorTable,
   STANDARD_HEADING: StandardHeading,
   CONTACT_FORM: ContactForm,
+  OVERVIEW_HERO: OverviewHero,
 };
 
 const Section: React.FC<SectionProps> = ({ section, instanceId }) => {
