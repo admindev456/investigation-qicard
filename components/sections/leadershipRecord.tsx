@@ -147,7 +147,7 @@ const LeadershipRecord: React.FC<LeadershipRecordProps> = ({ section }) => {
             <p className="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800 mt-4 sm:mt-5">
               Despite his December 2023 acquittal by Iraq&apos;s Court of Cassation, 
               <span className="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">
-                U.S. Congressional representatives explicitly named him as a "key money-laundering confederate" in their May 2025 letter demanding sanctions as well as explicitely mentioning Qi Card and its partner Al-Rafidain Bank both by name as corrupt money laundering institutions deserving of US sanctions
+                U.S. Congressional representatives explicitly named him as a &quot;key money-laundering confederate&quot; in their May 2025 letter demanding sanctions as well as explicitely mentioning Qi Card and its partner Al-Rafidain Bank both by name as corrupt money laundering institutions deserving of US sanctions
                 <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">
                   Citation [4]
                 </span>
