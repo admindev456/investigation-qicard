@@ -3,6 +3,21 @@
 @tailwind utilities;
 
 
+.font-display {
+    font-family: var(--font-display), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+:root {
+    --brand-navy: #0f2d3a;       /* deep navy */
+    --brand-teal: #0b7285;       /* muted teal accent */
+    --brand-charcoal: #334155;   /* charcoal */
+}
+
+.text-brand-navy { color: var(--brand-navy); }
+.text-brand-teal { color: var(--brand-teal); }
+.bg-brand-teal-100 { background-color: color-mix(in srgb, var(--brand-teal) 12%, white); }
+.border-brand-navy { border-color: var(--brand-navy); }
+
 .bg-green-50 {
     --tw-bg-opacity: 1;
     background-color: rgb(240 253 244/var(--tw-bg-opacity))
