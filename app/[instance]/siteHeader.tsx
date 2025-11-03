@@ -1,13 +1,9 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import Search from "@/components/search";
-import Image from "next/image";
-import { Globals, Header, ProductionSlug } from "@/app/lib/types";
+import { useState } from "react";
+import { Globals, Header } from "@/app/lib/types";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { io } from "socket.io-client";
-import { clearCache } from "../lib/api";
 
 interface Common {
   globals: Globals;
@@ -20,49 +16,12 @@ interface HeaderProps {
   clientConfig: { siteId: string };
 }
 
-const socket = io("https://api.headlesshost.com");
-
-export default function SiteHeader({ common, instanceId, clientConfig }: HeaderProps) {
+export default function SiteHeader({ common, instanceId }: HeaderProps) {
   const [showNav, setShowNav] = useState(false);
   const pathname = usePathname();
   const { globals, header } = common;
   const { links = [] } = globals?.content || {};
-  const { smallLogo, largeLogo, links: headerLinks = [] } = header?.content || {};
-
-  useEffect(() => {
-    function onStageUpdated(values: any) {
-      console.log("CMS Updated", values);
-      if (values?.instanceId !== instanceId) {
-        // Ignore updates from other instances
-        return;
-      }
-      console.log("CMS Updated - clearing cache");
-      if (values?.pageId) {
-        clearCache(values.pageId);
-      } else {
-        clearCache(instanceId);
-      }
-    }
-    function onPublish(values: any) {
-      console.log("Site Published", values);
-      if (instanceId === ProductionSlug) {
-        console.log("Published - Clearing cache");
-        clearCache(instanceId);
-      }
-    }
-    socket.emit("ContentSite-Join", clientConfig.siteId);
-    socket.on("StageUpdated", onStageUpdated);
-    socket.on("Publish", onPublish);
-
-    return () => {
-      socket.emit("ContentSite-Leave", clientConfig.siteId);
-      socket.off(clientConfig.siteId, onStageUpdated);
-      socket.off(clientConfig.siteId, onPublish);
-    };
-  }, [clientConfig.siteId, instanceId]);
-
-  const selectedCss = "block w-full pl-3.5 before:pointer-events-none before:absolute before:left-0.5 before:top-1/2 before:h-0.5 before:w-1.5 before:-translate-y-1/2 text-sky-500 before:bg-sky-500";
-  const blankCss = "block w-full pl-3.5 before:pointer-events-none before:absolute before:left-0.5 before:top-1/2 before:h-0.5 before:w-1.5 before:-translate-y-1/2 text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-900 hover:before:block";
+  const { links: headerLinks = [] } = header?.content || {};
 
   return (
     <>
@@ -74,11 +33,7 @@ export default function SiteHeader({ common, instanceId, clientConfig }: HeaderP
                 <path d="M4 7h16M4 12h16M4 17h16"></path>
               </svg>
             </button>
-            <a aria-label="Home page" href="/">
-              {largeLogo && largeLogo.url ? <Image className="h-7 hidden sm:block" src={largeLogo.url} alt={"Knowledgebase"} priority width={largeLogo.width} height={largeLogo.height} /> : <Image className="h-7 hidden sm:block" src="/logo.png" alt="Knowledgebase" priority width={257} height={30} />}
-              {smallLogo && smallLogo.url ? <Image className="h-7 sm:hidden" src={smallLogo.url} alt={"Knowledgebase"} priority width={smallLogo.width} height={smallLogo.height} /> : <Image className="h-7 sm:hidden" src="/logo-sm.png" alt="Knowledgebase" priority width={30} height={22} />}
-            </a>
-            <nav className="hidden lg:flex lg:space-x-8 lg:ml-12 xl:ml-16">
+            <nav className="hidden lg:flex lg:space-x-8">
               {headerLinks.map((link) =>
                 link.slug?.startsWith("http") ? (
                   <a key={link.title} href={link.slug}>
@@ -92,44 +47,60 @@ export default function SiteHeader({ common, instanceId, clientConfig }: HeaderP
               )}
             </nav>
           </div>
-          <div className="flex items-center flex-1 justify-end">
-            <Search instanceId={instanceId} navigation={links} />
-          </div>
         </div>
       </header>
 
+      {/* Mobile Menu Overlay */}
       {showNav && (
-        <div className="fixed inset-0 overflow-y-auto overflow-x-hidden bg-slate-900/20 backdrop-blur z-50 transform transition">
-          <div className="min-h-full w-full bg-white max-w-xs pt-7 pb-16 px-6 xl:pr-16">
-            <div className="flex justify-end">
-              <button type="button" className="inline-flex items-center justify-center text-slate-500 hover:text-sky-500 focus:outline-none" aria-expanded="false" onClick={() => setShowNav(false)}>
-                <span className="sr-only">Toggle main menu</span>
-                <svg className="hh-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentcolor" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18 18 6M6 6l12 12"></path>
-                </svg>
-              </button>
-            </div>
-            <nav>
-              <ul className="space-y-9">
-                {links.map((item) => (
-                  <li key={item.group}>
-                    <h2 className="font-display font-semibold text-slate-900">{item.group}</h2>
-                    <ul className="mt-3 space-y-3">
-                      {item.links?.map((child) => (
-                        <li className="relative" key={child.slug}>
-                          <Link className={pathname.endsWith(child.slug ?? "") ? selectedCss : blankCss} onClick={() => setShowNav(false)} href={`${child.slug}`}>
-                            {child.title}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </li>
-                ))}
-              </ul>
-            </nav>
-          </div>
-        </div>
+        <div 
+          className="fixed inset-0 z-40 bg-black/30 backdrop-blur-sm transition-opacity duration-300 lg:hidden"
+          onClick={() => setShowNav(false)}
+        ></div>
       )}
+
+      {/* Mobile Sidebar */}
+      <div
+        className={`fixed top-0 left-0 h-full w-72 bg-white shadow-lg z-50 transform transition-transform duration-300 ease-out lg:hidden ${
+          showNav ? "translate-x-0" : "-translate-x-full"
+        }`}
+      >
+        {/* Header with close button */}
+        <div className="flex items-center justify-between border-b border-slate-200 px-6 py-5">
+          <span className="font-display font-semibold text-slate-900 text-lg">Navigation</span>
+          <button
+            type="button"
+            className="inline-flex items-center justify-center text-slate-500 hover:text-slate-700 focus:outline-none"
+            onClick={() => setShowNav(false)}
+          >
+            <span className="sr-only">Close menu</span>
+            <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
+        </div>
+
+        {/* Navigation Content */}
+        <nav className="px-6 py-6">
+          <ul className="space-y-1">
+            {/* Overview Link - Only Nav Item */}
+            {headerLinks.map((link) => (
+              <li key={link.title}>
+                <Link
+                  href={link.slug ?? ""}
+                  onClick={() => setShowNav(false)}
+                  className={`block px-4 py-3 rounded-lg text-base font-medium transition-colors ${
+                    pathname.includes("overview")
+                      ? "bg-sky-50 text-sky-600"
+                      : "text-slate-700 hover:bg-slate-100"
+                  }`}
+                >
+                  {link.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </div>
     </>
   );
 }
