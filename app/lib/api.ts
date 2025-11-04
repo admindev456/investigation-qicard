@@ -51,19 +51,19 @@ const mockData = {
           type: "OVERVIEW_HERO",
           content: {
             siteMark: "[Logo / Site Mark]",
-            title: "Qi Card: An Analysis of a Financial Nexus in Iraq—Assessing Allegations of Illicit Finance, Iranian Proximity, and Systemic Risk",
+            title: "Ongoing Qi Card Intelligence Archive",
             tagline:
               "Comprehensive cited documentation of corruption, money laundering, and sanctions evasion in Iraq's Qi Card electronic payment infrastructure (2007-2025)",
-            supporting: "",
+            supporting: "Sourced from U.S. government records, congressional documents, Treasury statements, and verified investigative reporting",
             stats: [
               { value: "$1.5B", label: "Laundered", caption: "(2023)", source: "WSJ" },
               { value: "$450M", label: "Militia Profits", caption: "(2023)", source: "JPost" },
               { value: "200,000+", label: "Cards Blocked", caption: "by U.S. Treasury", source: "Congress" },
-              { value: "18 Years", label: "Documented Corruption", caption: "(2007-2025)" },
+              { value: "18 Years", label: "Documented Corruption", caption: "(2007-2025)", source: "" },
             ],
             aboutTitle: "About This Archive",
             aboutDescription:
-              "This repository consolidates verified evidence of systematic financial corruption involving Iraq's dominant payment processor, International Smart Card (Qi Card).",
+              "This repository consolidates verified evidence of systematic financial corruption involving Iraq's dominant payment processor, International Smart Card (Qi Card). Documentation includes:",
             highlights: [
               "Congressional demands for sanctions (May 2025)",
               "U.S. Treasury investigations and card blocking actions",
@@ -232,11 +232,11 @@ const mockData = {
               note: "Despite two criminal convictions (later overturned), documented torture, UN ruling of arbitrary detention, and explicit naming in U.S. Congressional sanctions demands, Bahaa Abdul Hadi remains in leadership and no OFAC designation has been issued as of November 2025. The Wall Street Journal reported that Qi Card transaction volumes grew from $10 million monthly (early 2023) to over $500 million monthly (early 2025), with more than 200,000 militia members receiving salaries through the system."
             }
           }
-        },
+        }
       ],
       content: {
         extendedProperties: [
-          { name: "title", value: "Qi Card: An Analysis of a Financial Nexus in Iraq—Assessing Allegations of Illicit Finance, Iranian Proximity, and Systemic Risk" },
+          { name: "title", value: "Ongoing Qi Card Intelligence Archive" },
           {
             name: "description",
             value:
@@ -253,7 +253,7 @@ const mockData = {
       sections: [
         {
           id: "guide-text",
-          type: "textBlock",
+          type: "TEXT_BLOCK",
           _meta: {
             name: "Text Block",
             description: "Display formatted text content",
@@ -264,7 +264,7 @@ const mockData = {
         },
         {
           id: "guide-header",
-          type: "pageHeader",
+          type: "PAGE_HEADER",
           _meta: {
             name: "Page Header",
             description: "Display page titles and subtitles",
@@ -280,10 +280,10 @@ const mockData = {
         id: "author-1",
         cid: "author-1",
         content: {
-          name: "John Doe",
-          email: "john@example.com",
-          role: "Developer",
-          phone: "555-0100",
+          name: "Research Team",
+          email: "research@qicardintelligence.org",
+          role: "Lead Investigator",
+          phone: "",
           image: {
             url: "/user.png",
             width: 100,
@@ -301,7 +301,7 @@ const mockData = {
 
 export async function getClientConfig(): Promise<{ siteId: string }> {
   return {
-    siteId: "local-development",
+    siteId: "qi-card-intelligence-archive",
   };
 }
 
