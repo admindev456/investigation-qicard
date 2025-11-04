@@ -14,6 +14,7 @@ import AuthorTable from "./sections/authorTable";
 import StandardHeading from "./sections/standardHeading";
 import ContactForm from "./sections/contactForm";
 import LeadershipRecord from "./sections/leadershipRecord";
+import CriminalTimeline from "./sections/criminalTimeline";
 
 interface SectionProps {
   section: any;
@@ -36,6 +37,7 @@ const sections: { [key: string]: React.FC<any> } = {
   CONTACT_FORM: ContactForm,
   OVERVIEW_HERO: OverviewHero,
   LEADERSHIP_RECORD: LeadershipRecord,
+  CRIMINAL_TIMELINE: CriminalTimeline,
 };
 
 const Section: React.FC<SectionProps> = ({ section, instanceId }) => {
