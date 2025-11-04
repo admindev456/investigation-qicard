@@ -59,4 +59,29 @@ export interface ImageDetails {
   id: string;
 }
 
+// Criminal Timeline Types
+export interface TimelineEvent {
+  date: string;
+  category: 'arrest' | 'legal' | 'torture' | 'acquittal' | 'political' | 'status';
+  title: string;
+  details: {
+    authority?: string;
+    outcome?: string;
+    specifics?: string[];
+    context?: string;
+  };
+  citations: {
+    text: string;
+    url?: string;
+    source: string;
+  }[];
+}
+
+export interface CriminalTimelineSection extends Section {
+  type: "CRIMINAL_TIMELINE";
+  content: {
+    events: TimelineEvent[];
+  };
+}
+
 export const ProductionSlug: string = "knowledgebase";
