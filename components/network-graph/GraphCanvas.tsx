@@ -21,6 +21,16 @@ interface Relationship {
   dateRange: string;
 }
 
+// Extend Entity to include D3 simulation properties
+interface SimulationNode extends Entity, d3.SimulationNodeDatum {}
+
+interface SimulationLink extends d3.SimulationLinkDatum<SimulationNode> {
+  type: string;
+  description: string;
+  strength: number;
+  dateRange: string;
+}
+
 interface GraphCanvasProps {
   entities: Entity[];
   relationships: Relationship[];
@@ -39,7 +49,7 @@ export default function GraphCanvas({
   layoutType
 }: GraphCanvasProps) {
   const svgRef = useRef<SVGSVGElement | null>(null);
-  const simulationRef = useRef<d3.Simulation<any, any> | null>(null);
+  const simulationRef = useRef<d3.Simulation<SimulationNode, SimulationLink> | null>(null);
 
   useEffect(() => {
     if (!svgRef.current || entities.length === 0) return;
@@ -78,22 +88,25 @@ export default function GraphCanvas({
 
     svg.call(zoom as any);
 
-    // Prepare data
-    const nodes = entities.map(e => ({ ...e }));
-    const links = relationships.map(r => ({
-      ...r,
+    // Prepare data - cast entities to SimulationNode
+    const nodes: SimulationNode[] = entities.map(e => ({ ...e }));
+    const links: SimulationLink[] = relationships.map(r => ({
       source: r.source,
-      target: r.target
+      target: r.target,
+      type: r.type,
+      description: r.description,
+      strength: r.strength,
+      dateRange: r.dateRange
     }));
 
     // Create force simulation
-    const simulation = d3.forceSimulation(nodes)
-      .force('link', d3.forceLink(links)
-        .id((d: any) => d.id)
+    const simulation = d3.forceSimulation<SimulationNode>(nodes)
+      .force('link', d3.forceLink<SimulationNode, SimulationLink>(links)
+        .id((d: SimulationNode) => d.id)
         .distance(d => 150 - (d.strength * 5)))
       .force('charge', d3.forceManyBody().strength(-500))
       .force('center', d3.forceCenter(width / 2, height / 2))
-      .force('collision', d3.forceCollide().radius((d: any) => 
+      .force('collision', d3.forceCollide().radius((d: SimulationNode) => 
         10 + (d.connectionCount * 2)));
 
     simulationRef.current = simulation;
@@ -105,7 +118,7 @@ export default function GraphCanvas({
       .data(links)
       .enter().append('line')
       .attr('stroke', '#d0d0d0')
-      .attr('stroke-width', (d: any) => Math.min(d.strength / 3, 3))
+      .attr('stroke-width', (d: SimulationLink) => Math.min(d.strength / 3, 3))
       .attr('marker-end', 'url(#arrow)');
 
     // Create link labels
@@ -118,7 +131,7 @@ export default function GraphCanvas({
       .attr('font-size', '10px')
       .attr('fill', '#666')
       .attr('text-anchor', 'middle')
-      .text((d: any) => d.type);
+      .text((d: SimulationLink) => d.type);
 
     // Create nodes
     const node = g.append('g')
@@ -127,20 +140,20 @@ export default function GraphCanvas({
       .data(nodes)
       .enter().append('g')
       .attr('class', 'node-group')
-      .call(d3.drag()
+      .call(d3.drag<SVGGElement, SimulationNode>()
         .on('start', dragstarted)
         .on('drag', dragged)
-        .on('end', dragended) as any);
+        .on('end', dragended));
 
     // Add circles for nodes
     node.append('circle')
-      .attr('r', (d: any) => 10 + Math.min(d.connectionCount * 1.5, 30))
+      .attr('r', (d: SimulationNode) => 10 + Math.min(d.connectionCount * 1.5, 30))
       .attr('fill', '#f5f5f5')
-      .attr('stroke', (d: any) => {
+      .attr('stroke', (d: SimulationNode) => {
         if (selectedEntity && d.id === selectedEntity.id) return '#000';
         return '#333';
       })
-      .attr('stroke-width', (d: any) => {
+      .attr('stroke-width', (d: SimulationNode) => {
         if (selectedEntity && d.id === selectedEntity.id) return 2;
         return 1;
       })
@@ -148,15 +161,15 @@ export default function GraphCanvas({
 
     // Add labels for nodes
     node.append('text')
-      .attr('dx', (d: any) => 15 + Math.min(d.connectionCount * 1.5, 30))
+      .attr('dx', (d: SimulationNode) => 15 + Math.min(d.connectionCount * 1.5, 30))
       .attr('dy', 4)
       .attr('font-size', '12px')
       .attr('fill', '#333')
       .style('pointer-events', 'none')
-      .text((d: any) => d.name);
+      .text((d: SimulationNode) => d.name);
 
     // Add hover effect
-    node.on('mouseenter', function(event, d: any) {
+    node.on('mouseenter', function(event, d: SimulationNode) {
       d3.select(this).select('circle')
         .transition()
         .duration(200)
@@ -186,7 +199,7 @@ export default function GraphCanvas({
       .style('opacity', 1);
     });
 
-    node.on('mouseleave', function(event, d: any) {
+    node.on('mouseleave', function(event, d: SimulationNode) {
       d3.select(this).select('circle')
         .transition()
         .duration(200)
@@ -196,7 +209,7 @@ export default function GraphCanvas({
     });
 
     // Add click handler
-    node.on('click', function(event, d: any) {
+    node.on('click', function(event, d: SimulationNode) {
       event.stopPropagation();
       onEntitySelect(d);
     });
@@ -218,22 +231,22 @@ export default function GraphCanvas({
         .attr('x', (d: any) => (d.source.x + d.target.x) / 2)
         .attr('y', (d: any) => (d.source.y + d.target.y) / 2);
 
-      node.attr('transform', (d: any) => `translate(${d.x},${d.y})`);
+      node.attr('transform', (d: SimulationNode) => `translate(${d.x},${d.y})`);
     });
 
     // Drag functions
-    function dragstarted(event: any, d: any) {
+    function dragstarted(event: d3.D3DragEvent<SVGGElement, SimulationNode, SimulationNode>, d: SimulationNode) {
       if (!event.active) simulation.alphaTarget(0.3).restart();
       d.fx = d.x;
       d.fy = d.y;
     }
 
-    function dragged(event: any, d: any) {
+    function dragged(event: d3.D3DragEvent<SVGGElement, SimulationNode, SimulationNode>, d: SimulationNode) {
       d.fx = event.x;
       d.fy = event.y;
     }
 
-    function dragended(event: any, d: any) {
+    function dragended(event: d3.D3DragEvent<SVGGElement, SimulationNode, SimulationNode>, d: SimulationNode) {
       if (!event.active) simulation.alphaTarget(0);
       d.fx = null;
       d.fy = null;
