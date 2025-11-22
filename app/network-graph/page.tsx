@@ -4,9 +4,11 @@ import React, { useEffect, useState } from 'react';
 import GraphCanvas from '@/components/network-graph/GraphCanvas';
 import ControlBar from '@/components/network-graph/ControlBar';
 import EntityDetails from '@/components/network-graph/EntityDetails';
-import entitiesData from '@/public/data/entities.json';
-import relationshipsData from '@/public/data/relationships.json';
-import metadataInfo from '@/public/data/metadata.json';
+
+// Import JSON data directly
+const entitiesData = require('../../public/data/entities.json');
+const relationshipsData = require('../../public/data/relationships.json');
+const metadataInfo = require('../../public/data/metadata.json');
 
 interface Entity {
   id: string;
