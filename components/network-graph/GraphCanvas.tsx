@@ -252,7 +252,7 @@ export default function GraphCanvas({
       d.fy = null;
     }
 
-    // Apply zoom level
+    // Apply initial zoom level
     svg.call(zoom.transform as any, d3.zoomIdentity.scale(zoomLevel));
 
     // Cleanup on unmount
@@ -262,7 +262,22 @@ export default function GraphCanvas({
       }
       d3.selectAll('.graph-tooltip').remove();
     };
-  }, [entities, relationships, selectedEntity, onEntitySelect, layoutType, zoomLevel]);
+  }, [entities, relationships, selectedEntity, onEntitySelect, layoutType]);
+
+  // Separate useEffect for zoom level changes
+  useEffect(() => {
+    if (!svgRef.current) return;
+    const svg = d3.select(svgRef.current);
+    const zoom = d3.zoom()
+      .scaleExtent([0.3, 3])
+      .on('zoom', (event) => {
+        svg.select('g').attr('transform', event.transform);
+      });
+    
+    svg.transition()
+      .duration(300)
+      .call(zoom.transform as any, d3.zoomIdentity.scale(zoomLevel));
+  }, [zoomLevel]);
 
   return (
     <svg
