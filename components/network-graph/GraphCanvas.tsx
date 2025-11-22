@@ -106,7 +106,7 @@ export default function GraphCanvas({
         .distance(d => 150 - (d.strength * 5)))
       .force('charge', d3.forceManyBody().strength(-500))
       .force('center', d3.forceCenter(width / 2, height / 2))
-      .force('collision', d3.forceCollide().radius((d: SimulationNode) => 
+      .force('collision', d3.forceCollide().radius((d: any) => 
         10 + (d.connectionCount * 2)));
 
     simulationRef.current = simulation;
@@ -262,17 +262,7 @@ export default function GraphCanvas({
       }
       d3.selectAll('.graph-tooltip').remove();
     };
-  }, [entities, relationships, selectedEntity, onEntitySelect, layoutType]);
-
-  // Update zoom when zoomLevel prop changes
-  useEffect(() => {
-    if (!svgRef.current) return;
-    const svg = d3.select(svgRef.current);
-    const zoom = d3.zoom();
-    svg.transition()
-      .duration(300)
-      .call(zoom.transform as any, d3.zoomIdentity.scale(zoomLevel));
-  }, [zoomLevel]);
+  }, [entities, relationships, selectedEntity, onEntitySelect, layoutType, zoomLevel]);
 
   return (
     <svg
