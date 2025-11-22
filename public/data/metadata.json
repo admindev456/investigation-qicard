@@ -1,0 +1,29 @@
+{
+  "lastUpdated": "2025-11-22",
+  "version": "1.0.0",
+  "statistics": {
+    "totalEntities": 36,
+    "entityBreakdown": {
+      "person": 15,
+      "organization": 21
+    },
+    "totalRelationships": 35,
+    "relationshipBreakdown": {
+      "financial": 7,
+      "ownership": 3,
+      "control": 3,
+      "founded": 4,
+      "acquisition": 3,
+      "partnership": 3,
+      "sanctions": 6,
+      "leadership": 4,
+      "political": 2,
+      "legal": 1,
+      "criminal": 1,
+      "membership": 1,
+      "alleged": 1
+    }
+  },
+  "dataSource": "Qi Card Network and Terrorist Funding Investigation",
+  "classification": "UNCLASSIFIED - For Congressional and Legal Review"
+}
