@@ -51,7 +51,7 @@ export default function NetworkGraphPage() {
     setFilteredRelationships(relationshipsData as Relationship[]);
 
     // Get all unique relationship types for filter
-    const relationTypes = [...new Set(relationshipsData.map((r: any) => r.type))];
+    const relationTypes = [...new Set(relationshipsData.map((r: any) => r.type))] as string[];
     setRelationshipTypeFilters(relationTypes);
   }, []);
 
@@ -139,7 +139,8 @@ export default function NetworkGraphPage() {
             className="text-gray-500 hover:text-gray-700"
           >
             <svg
-              className={`w-5 h-5 transform transition-transform ${descriptionCollapsed ? 'rotate-180' : ''}`}
+              className={`w-5 h-5 transform transition-transform ${descriptionCollapsed ? 
+                '' : 'rotate-180'}`}
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
