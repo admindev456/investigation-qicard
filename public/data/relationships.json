@@ -1,0 +1,290 @@
+[
+  {
+    "source": "bahaa_abdul_hadi",
+    "target": "isc_qi_card",
+    "type": "founded",
+    "description": "Founded ISC in 2007",
+    "strength": 10,
+    "dateRange": "2007-present"
+  },
+  {
+    "source": "isc_qi_card",
+    "target": "pmf",
+    "type": "financial",
+    "description": "Processes payroll for 200,000+ PMF members",
+    "strength": 9,
+    "dateRange": "2014-2025"
+  },
+  {
+    "source": "pmf",
+    "target": "irgc_qf",
+    "type": "control",
+    "description": "Takes orders from Iran's Supreme Leader",
+    "strength": 10,
+    "dateRange": "2014-present"
+  },
+  {
+    "source": "al_huda_bank",
+    "target": "kata_ib_hezbollah",
+    "type": "financial",
+    "description": "Established to launder money for KH",
+    "strength": 10,
+    "dateRange": "inception-2024"
+  },
+  {
+    "source": "bahaa_abdul_hadi",
+    "target": "ahmed_al_saadi",
+    "type": "criminal",
+    "description": "Partners in pension fraud scheme",
+    "strength": 8,
+    "dateRange": "pre-2020"
+  },
+  {
+    "source": "isc_qi_card",
+    "target": "digital_zone",
+    "type": "acquisition",
+    "description": "Acquired in 2022",
+    "strength": 10,
+    "dateRange": "2022-present"
+  },
+  {
+    "source": "isc_qi_card",
+    "target": "miswag",
+    "type": "acquisition",
+    "description": "Acquired November 2024",
+    "strength": 10,
+    "dateRange": "2024-present"
+  },
+  {
+    "source": "bahaa_abdul_hadi",
+    "target": "tradex",
+    "type": "founded",
+    "description": "Managing Partner",
+    "strength": 10,
+    "dateRange": "2025-present"
+  },
+  {
+    "source": "tradex",
+    "target": "globalx_group",
+    "type": "ownership",
+    "description": "Subsidiary of GlobalX",
+    "strength": 10,
+    "dateRange": "2025-present"
+  },
+  {
+    "source": "isc_qi_card",
+    "target": "k2_integrity",
+    "type": "partnership",
+    "description": "36-month compliance partnership",
+    "strength": 7,
+    "dateRange": "2025-2028"
+  },
+  {
+    "source": "isc_qi_card",
+    "target": "ant_international",
+    "type": "partnership",
+    "description": "SuperQi technology partner",
+    "strength": 8,
+    "dateRange": "2024-present"
+  },
+  {
+    "source": "ali_ghulam",
+    "target": "kata_ib_hezbollah",
+    "type": "financial",
+    "description": "Managed KH finances",
+    "strength": 9,
+    "dateRange": "through 2025"
+  },
+  {
+    "source": "joe_wilson",
+    "target": "marco_rubio",
+    "type": "political",
+    "description": "Demanded sanctions May 28, 2025",
+    "strength": 6,
+    "dateRange": "2025"
+  },
+  {
+    "source": "greg_steube",
+    "target": "marco_rubio",
+    "type": "political",
+    "description": "Co-authored sanctions letter",
+    "strength": 6,
+    "dateRange": "2025"
+  },
+  {
+    "source": "mastercard",
+    "target": "isc_qi_card",
+    "type": "sanctions",
+    "description": "Blocked 100,000+ cards",
+    "strength": 8,
+    "dateRange": "March 2025"
+  },
+  {
+    "source": "visa",
+    "target": "isc_qi_card",
+    "type": "sanctions",
+    "description": "Flagged 70,000 cards",
+    "strength": 8,
+    "dateRange": "April 2025"
+  },
+  {
+    "source": "us_treasury",
+    "target": "al_qurtas_bank",
+    "type": "sanctions",
+    "description": "Banned USD transactions",
+    "strength": 9,
+    "dateRange": "July 2023"
+  },
+  {
+    "source": "us_treasury",
+    "target": "al_huda_bank",
+    "type": "sanctions",
+    "description": "FinCEN designation",
+    "strength": 10,
+    "dateRange": "January 2024"
+  },
+  {
+    "source": "committee_29",
+    "target": "bahaa_abdul_hadi",
+    "type": "legal",
+    "description": "Arrested September 2020",
+    "strength": 8,
+    "dateRange": "2020-2023"
+  },
+  {
+    "source": "hamad_moussawi",
+    "target": "al_huda_bank",
+    "type": "ownership",
+    "description": "Owner/President",
+    "strength": 10,
+    "dateRange": "inception-present"
+  },
+  {
+    "source": "irgc_qf",
+    "target": "al_huda_bank",
+    "type": "control",
+    "description": "Controlled since inception",
+    "strength": 10,
+    "dateRange": "inception-present"
+  },
+  {
+    "source": "abu_fadak",
+    "target": "pmf",
+    "type": "leadership",
+    "description": "Chief of Staff",
+    "strength": 10,
+    "dateRange": "present"
+  },
+  {
+    "source": "abu_fadak",
+    "target": "kata_ib_hezbollah",
+    "type": "membership",
+    "description": "Senior KH member",
+    "strength": 8,
+    "dateRange": "present"
+  },
+  {
+    "source": "faleh_fayyadh",
+    "target": "pmf",
+    "type": "leadership",
+    "description": "Chairman",
+    "strength": 10,
+    "dateRange": "present"
+  },
+  {
+    "source": "qais_khazali",
+    "target": "pmf",
+    "type": "leadership",
+    "description": "Controls PMF Brigades 41-43",
+    "strength": 8,
+    "dateRange": "present"
+  },
+  {
+    "source": "esmail_ghaani",
+    "target": "irgc_qf",
+    "type": "leadership",
+    "description": "Commander since 2020",
+    "strength": 10,
+    "dateRange": "2020-present"
+  },
+  {
+    "source": "ali_muneam",
+    "target": "isc_qi_card",
+    "type": "leadership",
+    "description": "CEO",
+    "strength": 9,
+    "dateRange": "present"
+  },
+  {
+    "source": "isc_qi_card",
+    "target": "rafidain_bank",
+    "type": "partnership",
+    "description": "Charter bank partner",
+    "strength": 9,
+    "dateRange": "2007-present"
+  },
+  {
+    "source": "us_treasury",
+    "target": "ali_ghulam",
+    "type": "sanctions",
+    "description": "Designated October 9, 2025",
+    "strength": 10,
+    "dateRange": "2025"
+  },
+  {
+    "source": "us_treasury",
+    "target": "hamad_moussawi",
+    "type": "sanctions",
+    "description": "Designated January 28, 2024",
+    "strength": 10,
+    "dateRange": "2024"
+  },
+  {
+    "source": "us_treasury",
+    "target": "faleh_fayyadh",
+    "type": "sanctions",
+    "description": "Designated December 2019",
+    "strength": 10,
+    "dateRange": "2019"
+  },
+  {
+    "source": "isc_qi_card",
+    "target": "cbi",
+    "type": "financial",
+    "description": "Participates in dollar auctions",
+    "strength": 7,
+    "dateRange": "ongoing"
+  },
+  {
+    "source": "supercell_network",
+    "target": "kata_ib_hezbollah",
+    "type": "alleged",
+    "description": "Alleged operational links",
+    "strength": 5,
+    "dateRange": "unverified"
+  },
+  {
+    "source": "isc_qi_card",
+    "target": "pure_platform",
+    "type": "acquisition",
+    "description": "Acquired Iraq license",
+    "strength": 7,
+    "dateRange": "2024"
+  },
+  {
+    "source": "saif_mufti",
+    "target": "digital_zone",
+    "type": "founded",
+    "description": "Founded 2020",
+    "strength": 10,
+    "dateRange": "2020-2022"
+  },
+  {
+    "source": "mohamed_alkhafaji",
+    "target": "pure_platform",
+    "type": "founded",
+    "description": "Founded 2019",
+    "strength": 10,
+    "dateRange": "2019-present"
+  }
+]
