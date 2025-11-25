@@ -12,6 +12,7 @@ const mockData = {
             group: "Navigation",
             links: [
               { title: "Overview", slug: "overview", target: "_self" },
+              { title: "Ecosystem", slug: "ecosystem", target: "_self" },
             ],
           },
         ],
@@ -31,7 +32,10 @@ const mockData = {
           height: 30,
           id: "logo-lg",
         },
-        links: [{ title: "Overview", slug: "/knowledgebase/overview", target: "_self" }],
+        links: [
+          { title: "Overview", slug: "/knowledgebase/overview", target: "_self" },
+          { title: "Ecosystem", slug: "/knowledgebase/ecosystem", target: "_self" },
+        ],
       },
     },
   },
@@ -39,6 +43,7 @@ const mockData = {
     content: {
       pages: [
         { identifier: "overview", title: "Overview", index: 0 },
+        { identifier: "ecosystem", title: "Ecosystem", index: 1 },
       ],
     },
   },
@@ -241,6 +246,184 @@ const mockData = {
             name: "description",
             value:
               "Comprehensive documentation of Iraqi Qi Card corruption, money laundering, and sanctions evasion activities spanning 2007-2025.",
+          },
+        ],
+      },
+    },
+    ecosystem: {
+      title: "Ecosystem",
+      sections: [
+        {
+          id: "ecosystem-title",
+          type: "STANDARD_HEADING",
+          content: {
+            heading: {
+              title: "Militias, Banks, and Electronic Payments: Unmasking Iranian Leverage Through Iraq's Qi Card Ecosystem",
+              headingType: "h1",
+            },
+          },
+        },
+        {
+          id: "ecosystem-subtext",
+          type: "TEXT_BLOCK",
+          content: {
+            content: "The section will describe Iraq's Qi Card system and show how Iranian-backed militias have used it to embed themselves in digital payments, helping move state payroll and money flows that support Iran and its proxies in evading sanctions, laundering funds, and financing regional operations.",
+            variant: "tagline",
+          },
+        },
+        {
+          id: "ecosystem-citation",
+          type: "TEXT_BLOCK",
+          content: {
+            content: "All claims are cited to primary sources. Materials organized for legal, governmental, and investigative use.",
+            variant: "citation",
+          },
+        },
+        {
+          id: "ecosystem-divider",
+          type: "DIVIDER",
+          content: {},
+        },
+        {
+          id: "ecosystem-intro",
+          type: "TEXT_BLOCK",
+          content: {
+            content: "Qi Card in Iraq was founded and developed through a strategic public-private partnership in 2007 between private sector architect <strong>Bahaa Abdul Hussein</strong>, and Iraq's two largest state-owned banks, <strong>Rafidain Bank</strong> and <strong>Rasheed Bank</strong>.",
+            variant: "body",
+            html: true,
+          },
+        },
+        {
+          id: "rafidain-bank-section",
+          type: "IMAGE_WITH_TEXT",
+          content: {
+            image: {
+              url: "/rafidain-bank-iraq.jpg",
+              alt: "Rafidain Bank Iraq",
+            },
+            caption: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.foxbusiness.com%2Ffox-news-world%2Firaqi-state-bank-accused-processing-payments-houthi-terrorists-who-disrupt-red-sea-commerce&psig=AOvVaw0ugX2KI-NafB-2AHC9BOot&ust=1764084499975000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCJCxhJeNi5EDFQAAAAAdAAAAABAE",
+            captionUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.foxbusiness.com%2Ffox-news-world%2Firaqi-state-bank-accused-processing-payments-houthi-terrorists-who-disrupt-red-sea-commerce&psig=AOvVaw0ugX2KI-NafB-2AHC9BOot&ust=1764084499975000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCJCxhJeNi5EDFQAAAAAdAAAAABAE",
+            text: [
+              {
+                text: "Rafidain Bank is Iraq's largest and oldest state-owned commercial bank, founded in 1941 and headquartered in central Baghdad, the bank is a primary channel for handling government accounts, public-sector payroll, pensions, and large volumes of domestic payments.",
+                citation: {
+                  number: "15",
+                  url: "https://martini.ai/pages/research/Rafidain%20Bank-f278ca2d9881e6fb1e238ecf6817fdfe",
+                },
+              },
+              {
+                text: "Rafidain Bank has a long history of US sanctions. During Saddam Hussein's rule, it was blacklisted to prevent the regime from using the bank to finance weapons purchases. The United Nations imposed sanctions on Rafidain after the first Gulf War in 1991, which were lifted in 2020.",
+                citation: {
+                  number: "16",
+                  url: "https://www.basnews.com/en/babat/892016",
+                },
+              },
+            ],
+          },
+        },
+        {
+          id: "rafidain-scrutiny-section",
+          type: "TEXT_BLOCK",
+          content: {
+            content: `<p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">In recent years, Rafidain bank is once again under international scrutiny, specifically for its alleged ties and funding of <strong>Iranian backed terror proxies.</strong></p>
+<p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">
+<span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">
+'Michael Knights, senior fellow at the Washington Institute, told FOX Business that US lawmakers have increasingly pressured Rafidain. "Since February 2025, Congress has been calling for sanctioning Rafidain over facilitating large-scale transfers of money to Iran and its proxies. That puts Rafidain in the danger zone as an Iraqi bank that multiple congressional representatives know by name," he said.'
+<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citation [16]</span>
+</span>
+<a href="https://www.basnews.com/en/babat/892016" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[16]</a>
+</p>
+<p class="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">
+<span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">
+Iraq's banking system plays a significant role in facilitating Iranian access to the Western-led global financial system. Iraq's largest state-owned financial institution, Rafidain Bank, stands accused — most notably by <strong>U.S. Rep. Joe Wilson (R-SC)</strong> — of laundering billions of dollars for the benefit of Iran and its proxies. Iran-aligned businessmen use fraudulent invoices and nominee buyers to extract hard currency from Iraq's financial system — money that is then rerouted across the region to support Iran's Islamic Revolutionary Guard Corps.
+<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citation [17]</span>
+</span>
+<a href="https://www.fdd.org/analysis/2025/07/25/from-oil-to-oman-10-ways-to-economically-cripple-irans-war-machine/" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[17]</a>
+</p>`,
+            variant: "body",
+            html: true,
+          },
+        },
+        {
+          id: "rasheed-bank-section",
+          type: "IMAGE_WITH_TEXT",
+          content: {
+            image: {
+              url: "/rasheedbank.png",
+              alt: "Rasheed Bank",
+            },
+            caption: "https://en.964media.com/10620/",
+            captionUrl: "https://en.964media.com/10620/",
+            text: [
+              {
+                text: "Al-Rasheed is Iraq's second largest state-owned commercial bank, established in 1988 by being spun off from Rafidain Bank.",
+                citation: {
+                  number: "18",
+                  url: "https://en.wikipedia.org/wiki/Rasheed_Bank",
+                },
+              },
+              {
+                text: "Rasheed Bank plays a central role in Iraq's payroll and social payments system, partnering for public salaries, pensions, and Qi Card issuance.",
+                citation: {
+                  number: "19",
+                  url: "https://www.state.gov/wp-content/uploads/2025/08/638719_2025-Iraq-Investment-Climate-Statement.pdf",
+                },
+              },
+              {
+                text: "As of 2025, Rasheed Bank and Rafidain together with the Trade Bank of Iraq make up roughly 85% of all assets in Iraq's banking sector.",
+                citation: {
+                  number: "19",
+                  url: "https://www.state.gov/wp-content/uploads/2025/08/638719_2025-Iraq-Investment-Climate-Statement.pdf",
+                },
+              },
+              {
+                text: "While less prominent than Rafidain in sanctions and Western reports, recent investigations and U.S. advisories highlight broader risks of Iranian exploitation and militia-linked activity across the Iraqi banking sector, including Rasheed.",
+                citation: {
+                  number: "20",
+                  url: "https://www.basnews.com/en/babat/884914",
+                },
+              },
+            ],
+          },
+        },
+        {
+          id: "congressional-letter-section",
+          type: "TEXT_BLOCK",
+          content: {
+            content: `<p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">Effectively, the main founders of Iraq's Qi Card, including Rafidain Bank, Al-Rasheed Bank, and Bahaa Abdul Hussein Abdul Hadi, all have a track record linked to supporting Iranian terror proxies and the funding of Iranian backed PMF militias. In the recent congressional letter from U.S. Representatives Joe Wilson (R-SC) and W. Gregory Steube (R-FL) addressed to Secretary Marco Rubio, all 3 are explicilty mentioned in the letter by name.</p>
+<p class="mb-2 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">Specifically mentioned in the letter by name:</p>
+<ul class="list-disc list-inside mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800 space-y-1">
+<li>Al Rafidain Bank</li>
+<li>Bahaa Abdul Hussein Abdul Hadi (labeled a 'key money-laundering confederate')</li>
+<li>Qi Card</li>
+<li>The Director General of Rafidain Bank</li>
+<li>The Director General of Al-Rasheed Bank</li>
+</ul>`,
+            variant: "body",
+            html: true,
+          },
+        },
+        {
+          id: "congressional-letter-image",
+          type: "IMAGE_WITH_CITATION",
+          content: {
+            image: {
+              url: "/snippet.png",
+              alt: "Congressional Letter Snippet",
+              width: 1200,
+              height: 800,
+            },
+            citationUrl: "https://static.foxnews.com/foxnews.com/content/uploads/2025/05/5.28.25_iraq_sanctions_letter.pdf",
+          },
+        },
+      ],
+      content: {
+        extendedProperties: [
+          { name: "title", value: "Militias, Banks, and Electronic Payments: Unmasking Iranian Leverage Through Iraq's Qi Card Ecosystem" },
+          {
+            name: "description",
+            value:
+              "Analysis of the interconnected network of militias, banks, and electronic payment systems enabling Iranian influence through Iraq's Qi Card infrastructure.",
           },
         ],
       },
