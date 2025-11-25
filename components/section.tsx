@@ -15,6 +15,9 @@ import StandardHeading from "./sections/standardHeading";
 import ContactForm from "./sections/contactForm";
 import LeadershipRecord from "./sections/leadershipRecord";
 import CriminalTimeline from "./sections/criminalTimeline";
+import Divider from "./sections/divider";
+import ImageWithText from "./sections/imageWithText";
+import ImageWithCitation from "./sections/imageWithCitation";
 
 interface SectionProps {
   section: any;
@@ -38,6 +41,9 @@ const sections: { [key: string]: React.FC<any> } = {
   OVERVIEW_HERO: OverviewHero,
   LEADERSHIP_RECORD: LeadershipRecord,
   CRIMINAL_TIMELINE: CriminalTimeline,
+  DIVIDER: Divider,
+  IMAGE_WITH_TEXT: ImageWithText,
+  IMAGE_WITH_CITATION: ImageWithCitation,
 };
 
 const Section: React.FC<SectionProps> = ({ section, instanceId }) => {
