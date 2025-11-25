@@ -14,12 +14,18 @@ interface StandardHeadingProps {
 const StandardHeading: React.FC<StandardHeadingProps> = ({ section }) => {
   const { heading } = section?.content || {};
   const { headingType, title } = heading || {};
-  const className = `text-${headingType === "h1" ? "3xl" : headingType === "h2" ? "2xl" : headingType === "h3" ? "xl" : headingType === "h4" ? "lg" : "base"}`;
+  
+  // Use the same styling as overview hero for h1 headings
+  const className = headingType === "h1" 
+    ? "font-display text-xl sm:text-2xl md:text-3xl lg:text-3xl font-bold leading-snug sm:leading-snug text-black mb-8"
+    : `text-${headingType === "h2" ? "2xl" : headingType === "h3" ? "xl" : headingType === "h4" ? "lg" : "base"} font-bold mb-8`;
+
+  const HeadingTag = headingType === "h1" ? "h1" : headingType === "h2" ? "h2" : headingType === "h3" ? "h3" : headingType === "h4" ? "h4" : "div";
 
   return (
-    <div className={`${className} font-bold mb-8`} id={section.id}>
+    <HeadingTag className={className} id={section.id}>
       {title}
-    </div>
+    </HeadingTag>
   );
 };
 
