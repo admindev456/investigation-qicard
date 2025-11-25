@@ -34,17 +34,26 @@ export default function SiteHeader({ common, instanceId }: HeaderProps) {
               </svg>
             </button>
             <nav className="hidden lg:flex lg:space-x-8">
-              {headerLinks.map((link) =>
-                link.slug?.startsWith("http") ? (
+              {headerLinks.map((link) => {
+                const isActive = pathname === link.slug || pathname.includes(link.slug?.split('/').pop() || '');
+                return link.slug?.startsWith("http") ? (
                   <a key={link.title} href={link.slug}>
                     {link.title}
                   </a>
                 ) : (
-                  <Link key={link.title} href={link.slug ?? ""} className="text-sm hover:text-sky-500 py-2.5 text-slate-900 font-display font-semibold">
+                  <Link 
+                    key={link.title} 
+                    href={link.slug ?? ""} 
+                    className={`text-sm py-2.5 font-display font-semibold transition-colors ${
+                      isActive 
+                        ? "text-sky-600 border-b-2 border-sky-600" 
+                        : "text-slate-900 hover:text-sky-500"
+                    }`}
+                  >
                     {link.title}
                   </Link>
-                )
-              )}
+                );
+              })}
             </nav>
           </div>
         </div>
@@ -83,21 +92,24 @@ export default function SiteHeader({ common, instanceId }: HeaderProps) {
         <nav className="px-6 py-6">
           <ul className="space-y-1">
             {/* Overview Link - Only Nav Item */}
-            {headerLinks.map((link) => (
-              <li key={link.title}>
-                <Link
-                  href={link.slug ?? ""}
-                  onClick={() => setShowNav(false)}
-                  className={`block px-4 py-3 rounded-lg text-base font-medium transition-colors ${
-                    pathname.includes("overview")
-                      ? "bg-sky-50 text-sky-600"
-                      : "text-slate-700 hover:bg-slate-100"
-                  }`}
-                >
-                  {link.title}
-                </Link>
-              </li>
-            ))}
+            {headerLinks.map((link) => {
+              const isActive = pathname === link.slug || pathname.includes(link.slug?.split('/').pop() || '');
+              return (
+                <li key={link.title}>
+                  <Link
+                    href={link.slug ?? ""}
+                    onClick={() => setShowNav(false)}
+                    className={`block px-4 py-3 rounded-lg text-base font-medium transition-colors ${
+                      isActive
+                        ? "bg-sky-50 text-sky-600"
+                        : "text-slate-700 hover:bg-slate-100"
+                    }`}
+                  >
+                    {link.title}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         </nav>
       </div>
