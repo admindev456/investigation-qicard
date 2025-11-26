@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Globals, Header } from "@/app/lib/types";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import LogoutButton from "@/components/logoutButton";
 
 interface Common {
   globals: Globals;
@@ -55,6 +56,9 @@ export default function SiteHeader({ common, instanceId }: HeaderProps) {
                 );
               })}
             </nav>
+          </div>
+          <div className="flex items-center">
+            <LogoutButton />
           </div>
         </div>
       </header>
@@ -111,6 +115,9 @@ export default function SiteHeader({ common, instanceId }: HeaderProps) {
               );
             })}
           </ul>
+          <div className="mt-6 pt-6 border-t border-slate-200">
+            <LogoutButton />
+          </div>
         </nav>
       </div>
     </>
