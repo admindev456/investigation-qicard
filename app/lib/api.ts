@@ -285,6 +285,16 @@ const mockData = {
           content: {},
         },
         {
+          id: "origins-title",
+          type: "STANDARD_HEADING",
+          content: {
+            heading: {
+              title: "Origins",
+              headingType: "h1",
+            },
+          },
+        },
+        {
           id: "ecosystem-intro",
           type: "TEXT_BLOCK",
           content: {
@@ -414,6 +424,184 @@ Iraq's banking system plays a significant role in facilitating Iranian access to
               height: 800,
             },
             citationUrl: "https://static.foxnews.com/foxnews.com/content/uploads/2025/05/5.28.25_iraq_sanctions_letter.pdf",
+          },
+        },
+        {
+          id: "conclusion-text",
+          type: "TEXT_BLOCK_WITH_BORDER",
+          content: {
+            content: `<ul class="space-y-3 list-none">
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span>The 2007 public-private partnership between Bahaa Abdul Hussein and Iraq's state banks created more than a payment processing company—it built mandatory financial infrastructure that would eventually touch 12 million Iraqis and process billions in monthly transactions.</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span>When the Popular Mobilization Forces (PMF) were placed on the government payroll in 2014, Qi Card became the conduit through which U.S.-designated terrorist organizations received Iraqi state funding.</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span>What began as salary disbursement evolved into an industrial-scale sanctions evasion operation that, by 2025, had funneled hundreds of millions of dollars to Iranian proxy militias.</span>
+</li>
+</ul>`,
+            html: true,
+          },
+        },
+        {
+          id: "structure-image",
+          type: "IMAGE_WITH_CITATION",
+          content: {
+            image: {
+              url: "/structure.png",
+              alt: "Qi Card Structure",
+              width: 1200,
+              height: 800,
+            },
+          },
+        },
+        {
+          id: "pmf-divider",
+          type: "DIVIDER",
+          content: {},
+        },
+        {
+          id: "pmf-title",
+          type: "STANDARD_HEADING",
+          content: {
+            heading: {
+              title: "The PMF Payroll Complex: Qi Card's Role in Enabling Iranian-Backed Militia Financing Through State Payment Infrastructure",
+              headingType: "h1",
+            },
+          },
+        },
+        {
+          id: "pmf-bullets",
+          type: "TEXT_BLOCK_WITH_BORDER",
+          content: {
+            content: `<ul class="space-y-3 list-none">
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span>When Islamic State fighters swept across northern and western Iraq in 2014, the U.S.-trained Iraqi army collapsed. Baghdad turned to Iranian-backed Shia militias as an emergency fighting force. The Popular Mobilization Forces (PMF) was formalized and placed on the government payroll.</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span>A decade later, this emergency arrangement would metastasize into deeply State-integrated financial infrastructure: a $2.7 billion annual state-funded apparatus with 130,000-145,000 fighters organized into 67 factions - 90% Shia - that openly take orders from Iran's Supreme Leader Khamenei while simultaneously receiving salaries through Iraq's national payment infrastructure via Qi Card.</span>
+</li>
+</ul>`,
+            html: true,
+          },
+        },
+        {
+          id: "command-structure-title",
+          type: "STANDARD_HEADING",
+          content: {
+            heading: {
+              title: "The Command Structure: From Tehran to Baghdad",
+              headingType: "h2",
+            },
+          },
+        },
+        {
+          id: "command-structure-bullets",
+          type: "TEXT_BLOCK_WITH_BORDER",
+          content: {
+            content: `<ul class="space-y-3 list-none">
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span>The PMF divides into two doctrinal axes. The first follows Grand Ayatollah Ali al-Sistani and the Najaf religious establishment—the "shrine brigades" (Hashd al-Atabat) that maintain nominal loyalty to the Iraqi state.</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span>The second—and dominant—axis follows Wilayat al-Faqih (Guardianship of the Jurist), meaning direct allegiance to Khamenei. These factions operate under IRGC-Quds Force command, executing Iranian foreign policy objectives on Iraqi soil while drawing <strong>Iraqi government paychecks.</strong></span>
+</li>
+</ul>`,
+            html: true,
+          },
+        },
+        {
+          id: "pmf-leadership-title",
+          type: "STANDARD_HEADING",
+          content: {
+            heading: {
+              title: "PMF Leadership Personal (Including U.S. Sanction Details)",
+              headingType: "h3",
+            },
+          },
+        },
+        {
+          id: "pmf-leadership-table",
+          type: "PMF_LEADERSHIP_TABLE",
+          content: {
+            rows: [
+              {
+                position: "Chairman",
+                name: "<strong>Faleh al-Fayyadh</strong>",
+                designation: "Designated December 2019",
+                notes: "Former Dawa Party member; resided in Iran 1970s-2003; <strong>cooperates with IRGC to implement Iranian instructions</strong>",
+                additionalDetails: "Chair of Popular Mobilization Commission (PMC/PMF); US Global Magnitsky sanctions for protest crackdown abuses; longtime National Security Adviser; leads Ataa Movement",
+              },
+              {
+                position: "Chief of Staff",
+                name: "<strong>Abdul Aziz al-Mohammadawi (Abu Fadak)</strong>",
+                designation: "Designated January 2021 (terrorism, E.O. 13224)",
+                notes: "Former Kata'ib Hezbollah Sec-Gen; succeeded Abu Mahdi al-Muhandis after Jan 2020 drone strike; declared in Tehran Apr 2024: <strong>\"PMF takes orders from Khamenei\"</strong>",
+                additionalDetails: "Veteran of anti-Saddam resistance; <strong>Iranian proxy ties; active in ISIS campaigns; PMF's most senior operational commander; subject to OFAC/E.O. 13224 terror sanctions</strong>",
+              },
+              {
+                position: "Secretary",
+                name: "<strong>Abu Muntadhar Tahsin al-Aboudi al-Husseini</strong>",
+                designation: "____",
+                notes: "Administrative oversight",
+                additionalDetails: "Birth name Tahseen Abid Murat al-Abboudi; PMF chief of operations (prior); alleged role in protester killings 2019; supervises PMF's new Human Rights Department",
+              },
+              {
+                position: "Operations Commander",
+                name: "<strong>Abu Ali Adnan Ibrahim Mohsen al-Basri</strong>",
+                designation: "____",
+                notes: "Tactical command",
+                additionalDetails: "Badr Organization veteran; linked to Supreme Committee for Combating Corruption; <strong>reportedly worked under Soleimani</strong>; principal PMF operational planner",
+              },
+            ],
+          },
+        },
+        {
+          id: "weapons-smuggling-section",
+          type: "TEXT_BLOCK",
+          content: {
+            content: `<p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">A leaked U.S. intelligence document, as reported by the Washington Post in May 2023, implicated Abu Fadak (Abdul Aziz al-Mohammadawi), the PMF chief of staff, in a weapons-smuggling scheme that funneled arms to Iran and its proxy groups for attacks against U.S. forces in Syria.</p>
+<p class="mb-2 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800 font-semibold">Key Details from the Leak:</p>
+<ul class="space-y-3 list-none mb-4">
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span class="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">The classified report detailed how Iran and its affiliated militias, using the aftermath of a devastating earthquake, hid weapons (including rifles, ammunition, and drones) within humanitarian aid shipments routed through Iraq into Syria.</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span class="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">Abu Fadak was identified as complicit in organizing these smuggling convoys, <strong>leveraging his position within the PMF to facilitate both the logistics and cover for the operation.</strong></span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span class="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800"><strong>This network provided the means for Iran-backed groups to launch attacks on U.S. military positions in Syria</strong>, escalating regional tensions and complicating the efforts of both U.S. and Israeli militaries to interdict these transfers.</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span class="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">PMF and Iraqi government sources deny the allegations, while independent confirmations from Israeli officials and separate intelligence assessments support the existence of the arms-smuggling operation.</span>
+</li>
+</ul>`,
+            variant: "body",
+            html: true,
+          },
+        },
+        {
+          id: "abu-fadak-statement",
+          type: "TEXT_BLOCK",
+          content: {
+            content: `<p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">On April 5, 2024, Abu Fadak (Abdul Aziz al-Mohammadawi), chief of staff of the Popular Mobilization Forces, traveled to Tehran for Qods Day marches, where he publicly stated to media, <strong>"The PMF is a fundamental part of the battle in Gaza and Palestine"</strong>. <em>(Potentially referring to Hamas, which is a U.S. designated terror organization and the major Iranian funded proxy in the region. Effectively implicitly linking Iraqi Popular Mobilization Forces (financed by Iraqi state funding, <strong>enabled with Qi Card</strong>) with current U.S. designated terror organizations in Gaza.)</em></p>
+<p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">This statement by Abu Fadak, "The PMF is a fundamental part of the battle in Gaza and Palestine", is a rare public admission by the PMF's highest military commander that his Iraqi state-funded organization is participating in a regional conflict that the Iraqi state is not party to. A documented publicly stated quote, one of many instances of documented sources of evidence, linking Iraqi PMF, <strong>which have been financed using Qi Card</strong>, to Iranian terror proxies and designated terrorist organizations.</p>
+<p class="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">Abu Fadak was also very blunt about the fact that he takes orders from a foreign official, Iran's Supreme Leader Ali Khamenei:</p>
+<p class="mt-4 text-sm sm:text-base md:text-lg font-medium sm:font-normal leading-relaxed text-slate-900 italic pl-4 border-l-4 border-slate-300">"We are waiting for the [Supreme] Leader to express his view on the next step...What will the response be to the aggression on the Iranian consulate and the killing of some of the [Islamic Revolutionary Guard Corps, or IRGC] commanders?...After the criminal [attack] on the consulate in Damascus, we came to the Islamic Republic to first express our solidarity with the vision and the plan of the Leader and the Imam...and second is to renew our covenant [i.e., loyalty to the Supreme Leader] and wait for the Leader's decision"</p>`,
+            variant: "body",
+            html: true,
           },
         },
       ],
