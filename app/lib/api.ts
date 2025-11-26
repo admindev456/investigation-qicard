@@ -599,8 +599,147 @@ Iraq's banking system plays a significant role in facilitating Iranian access to
             content: `<p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">On April 5, 2024, Abu Fadak (Abdul Aziz al-Mohammadawi), chief of staff of the Popular Mobilization Forces, traveled to Tehran for Qods Day marches, where he publicly stated to media, <strong>"The PMF is a fundamental part of the battle in Gaza and Palestine"</strong>. <em>(Potentially referring to Hamas, which is a U.S. designated terror organization and the major Iranian funded proxy in the region. Effectively implicitly linking Iraqi Popular Mobilization Forces (financed by Iraqi state funding, <strong>enabled with Qi Card</strong>) with current U.S. designated terror organizations in Gaza.)</em></p>
 <p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">This statement by Abu Fadak, "The PMF is a fundamental part of the battle in Gaza and Palestine", is a rare public admission by the PMF's highest military commander that his Iraqi state-funded organization is participating in a regional conflict that the Iraqi state is not party to. A documented publicly stated quote, one of many instances of documented sources of evidence, linking Iraqi PMF, <strong>which have been financed using Qi Card</strong>, to Iranian terror proxies and designated terrorist organizations.</p>
 <p class="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">Abu Fadak was also very blunt about the fact that he takes orders from a foreign official, Iran's Supreme Leader Ali Khamenei:</p>
-<p class="mt-4 text-sm sm:text-base md:text-lg font-medium sm:font-normal leading-relaxed text-slate-900 italic pl-4 border-l-4 border-slate-300">"We are waiting for the [Supreme] Leader to express his view on the next step...What will the response be to the aggression on the Iranian consulate and the killing of some of the [Islamic Revolutionary Guard Corps, or IRGC] commanders?...After the criminal [attack] on the consulate in Damascus, we came to the Islamic Republic to first express our solidarity with the vision and the plan of the Leader and the Imam...and second is to renew our covenant [i.e., loyalty to the Supreme Leader] and wait for the Leader's decision"</p>`,
+<p class="mt-4 mb-8 sm:mb-10 md:mb-12 text-sm sm:text-base md:text-lg font-medium sm:font-normal leading-relaxed text-slate-900 italic pl-4 border-l-4 border-slate-300">"We are waiting for the [Supreme] Leader to express his view on the next step...What will the response be to the aggression on the Iranian consulate and the killing of some of the [Islamic Revolutionary Guard Corps, or IRGC] commanders?...After the criminal [attack] on the consulate in Damascus, we came to the Islamic Republic to first express our solidarity with the vision and the plan of the Leader and the Imam...and second is to renew our covenant [i.e., loyalty to the Supreme Leader] and wait for the Leader's decision"</p>`,
             variant: "body",
+            html: true,
+          },
+        },
+        {
+          id: "designated-terrorist-factions-title",
+          type: "STANDARD_HEADING",
+          content: {
+            heading: {
+              title: "The Designated Terrorist Factions Within PMF",
+              headingType: "h2",
+            },
+          },
+        },
+        {
+          id: "designated-terrorist-factions-intro",
+          type: "TEXT_BLOCK",
+          content: {
+            content: `<p class="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">To reiterate, the PMF is an Iraqi umbrella organization of many individual Iranian linked militias which have utilized Qi Card for financing their operations. The most powerful militias within the PMF are U.S. designated Foreign Terrorist Organizations that have killed American service members.</p>`,
+            variant: "body",
+            html: true,
+          },
+        },
+        {
+          id: "kataib-hezbollah-title",
+          type: "STANDARD_HEADING",
+          content: {
+            heading: {
+              title: "Kata'ib Hezbollah (Brigades 45, 46, 47)",
+              headingType: "h3",
+            },
+          },
+        },
+        {
+          id: "kataib-hezbollah-bullets",
+          type: "TEXT_BLOCK_WITH_BORDER",
+          content: {
+            content: `<ul class="space-y-3 list-none">
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span>Iran-aligned Shia militia, controls PMF Brigades 45, 46, and 47</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span>Designated as a terrorist organization by the United States and sanctioned as an Iran-aligned militia backed, trained, and equipped by the IRGC-Qods Force</span>
+</li>
+</ul>`,
+            html: true,
+          },
+        },
+        {
+          id: "asaib-ahl-al-haq-title",
+          type: "STANDARD_HEADING",
+          content: {
+            heading: {
+              title: "Asa'ib Ahl al-Haq (Brigades 41, 42, 43)",
+              headingType: "h3",
+            },
+          },
+        },
+        {
+          id: "asaib-ahl-al-haq-bullets",
+          type: "TEXT_BLOCK_WITH_BORDER",
+          content: {
+            content: `<ul class="space-y-3 list-none">
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span>Iran-backed Shia militia, commands brigades 41, 42, and 43 in Iraq's Popular Mobilization Forces</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span>Designated by the U.S. as both a Foreign Terrorist Organization and a Specialty Designated Global Terrorist, along with its leader Qais al-Khazali</span>
+</li>
+</ul>`,
+            html: true,
+          },
+        },
+        {
+          id: "harakat-hezbollah-al-nujaba-title",
+          type: "STANDARD_HEADING",
+          content: {
+            heading: {
+              title: "Harakat Hezbollah al-Nujaba (Brigade 12)",
+              headingType: "h3",
+            },
+          },
+        },
+        {
+          id: "harakat-hezbollah-al-nujaba-bullets",
+          type: "TEXT_BLOCK_WITH_BORDER",
+          content: {
+            content: `<ul class="space-y-3 list-none">
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span>Iranian backed Shia militia, operates the Iraqi state-funded 12th Brigade of the Popular Mobilization Forces</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span>Openly loyal to Iran's Supreme leader, positions itself as part of the "Axis of Resistance" against the U.S., Israel, and their partners</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span>Multiple governments list Harakat Hezbollah al-Nujaba and its leadership under terrorism sanctions, underscoring its reputation as one of the most aggressive Iraqi Iran-aligned militias</span>
+</li>
+</ul>`,
+            html: true,
+          },
+        },
+        {
+          id: "badr-organization-title",
+          type: "STANDARD_HEADING",
+          content: {
+            heading: {
+              title: "Badr Organization (Brigades 1, 4, 5, 9, 10, 21, 22, 23, 24, 27)",
+              headingType: "h3",
+            },
+          },
+        },
+        {
+          id: "badr-organization-bullets",
+          type: "TEXT_BLOCK_WITH_BORDER",
+          content: {
+            content: `<ul class="space-y-3 list-none">
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span>Major Shia Islamist militia, widely characterized as Iran's oldest and most deeply embedded proxy in the country</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span>Composed largely of Iraqi Shia exiles and POWs, organized and trained by the IRGC to originally fight Saddam Hussein</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span>Led by Hadi al-Amiri, an openly pro-Iranian figure who has simultaneously commanded Badr's militia and held senior government positions</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span>Despite its deep IRGC ties, Badr has generally <strong>avoided direct designation by the U.S. government</strong>, in part by embedding itself in formal political processes and avoiding the most visible rocket and drone campaigns carried out by more overt "special groups" like Kata'ib Hezbollah, Asa'ib Ahl al‑Haq, or Harakat Hezbollah al‑Nujaba. Nonetheless, many Western and regional assessments treat the Badr Organization as a <strong>central node</strong> in Iran's security architecture in Iraq, <strong>linking Tehran to both the PMF and the Iraqi security ministries.</strong></span>
+</li>
+</ul>`,
             html: true,
           },
         },
