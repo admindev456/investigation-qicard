@@ -18,7 +18,11 @@ const StandardHeading: React.FC<StandardHeadingProps> = ({ section }) => {
   // Use the same styling as overview hero for h1 headings
   const className = headingType === "h1" 
     ? "font-display text-xl sm:text-2xl md:text-3xl lg:text-3xl font-bold leading-snug sm:leading-snug text-black mb-8"
-    : `text-${headingType === "h2" ? "2xl" : headingType === "h3" ? "xl" : headingType === "h4" ? "lg" : "base"} font-bold mb-8`;
+    : headingType === "h2"
+    ? "font-display text-lg sm:text-xl md:text-2xl lg:text-2xl font-bold leading-snug sm:leading-snug text-black mb-6"
+    : headingType === "h3"
+    ? "font-display text-base sm:text-lg md:text-xl lg:text-xl font-bold leading-snug sm:leading-snug text-black mb-4"
+    : `text-${headingType === "h4" ? "lg" : "base"} font-bold mb-8`;
 
   const HeadingTag = headingType === "h1" ? "h1" : headingType === "h2" ? "h2" : headingType === "h3" ? "h3" : headingType === "h4" ? "h4" : "div";
 
