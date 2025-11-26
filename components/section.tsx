@@ -18,6 +18,8 @@ import CriminalTimeline from "./sections/criminalTimeline";
 import Divider from "./sections/divider";
 import ImageWithText from "./sections/imageWithText";
 import ImageWithCitation from "./sections/imageWithCitation";
+import TextBlockWithBorder from "./sections/textBlockWithBorder";
+import PMFLeadershipTable from "./sections/pmfLeadershipTable";
 
 interface SectionProps {
   section: any;
@@ -44,6 +46,8 @@ const sections: { [key: string]: React.FC<any> } = {
   DIVIDER: Divider,
   IMAGE_WITH_TEXT: ImageWithText,
   IMAGE_WITH_CITATION: ImageWithCitation,
+  TEXT_BLOCK_WITH_BORDER: TextBlockWithBorder,
+  PMF_LEADERSHIP_TABLE: PMFLeadershipTable,
 };
 
 const Section: React.FC<SectionProps> = ({ section, instanceId }) => {
