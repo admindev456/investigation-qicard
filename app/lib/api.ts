@@ -403,11 +403,11 @@ Iraq's banking system plays a significant role in facilitating Iranian access to
             content: `<p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">Effectively, the main founders of Iraq's Qi Card, including Rafidain Bank, Al-Rasheed Bank, and Bahaa Abdul Hussein Abdul Hadi, all have a track record linked to supporting Iranian terror proxies and the funding of Iranian backed PMF militias. In the recent congressional letter from U.S. Representatives Joe Wilson (R-SC) and W. Gregory Steube (R-FL) addressed to Secretary Marco Rubio, all 3 are explicilty mentioned in the letter by name.</p>
 <p class="mb-2 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">Specifically mentioned in the letter by name:</p>
 <ul class="list-disc list-inside mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800 space-y-1">
-<li>Al Rafidain Bank</li>
-<li>Bahaa Abdul Hussein Abdul Hadi (labeled a 'key money-laundering confederate')</li>
-<li>Qi Card</li>
-<li>The Director General of Rafidain Bank</li>
-<li>The Director General of Al-Rasheed Bank</li>
+<li><strong>Al Rafidain Bank</strong></li>
+<li><strong>Bahaa Abdul Hussein Abdul Hadi (labeled a 'key money-laundering confederate')</strong></li>
+<li><strong>Qi Card</strong></li>
+<li><strong>The Director General of Rafidain Bank</strong></li>
+<li><strong>The Director General of Al-Rasheed Bank</strong></li>
 </ul>`,
             variant: "body",
             html: true,
@@ -433,15 +433,15 @@ Iraq's banking system plays a significant role in facilitating Iranian access to
             content: `<ul class="space-y-3 list-none">
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span>The 2007 public-private partnership between Bahaa Abdul Hussein and Iraq's state banks created more than a payment processing company—it built mandatory financial infrastructure that would eventually touch 12 million Iraqis and process billions in monthly transactions.</span>
+  <span><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">The 2007 public-private partnership between Bahaa Abdul Hussein and Iraq's state banks created more than a payment processing company—it built financial infrastructure that would eventually touch 12 million Iraqis and process billions in monthly transactions.<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citation [21]</span></span><a href="https://www.khaleejtimes.com/kt-network/qi-card-champions-iraqs-fintech-shift-at-seamless-middle-east" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[21]</a></span>
 </li>
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span>When the Popular Mobilization Forces (PMF) were placed on the government payroll in 2014, Qi Card became the conduit through which U.S.-designated terrorist organizations received Iraqi state funding.</span>
+  <span><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">When the Popular Mobilization Forces (PMF) were placed on the government payroll in 2014, Qi Card became the conduit through which U.S.-designated terrorist organizations received Iraqi state funding.<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citation [22]</span></span><a href="https://www.unitedagainstnucleariran.com/blog/debit-card-scheme-bankrolling-irans-proxy-forces-iraq" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[22]</a></span>
 </li>
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span>What began as salary disbursement evolved into an industrial-scale sanctions evasion operation that, by 2025, had funneled hundreds of millions of dollars to Iranian proxy militias.</span>
+  <span><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">What began as salary disbursement evolved into an industrial-scale sanctions evasion operation that, by 2025, had funneled hundreds of millions of dollars to Iranian proxy militias.<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citation [22]</span></span><a href="https://www.unitedagainstnucleariran.com/blog/debit-card-scheme-bankrolling-irans-proxy-forces-iraq" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[22]</a></span>
 </li>
 </ul>`,
             html: true,
@@ -481,11 +481,11 @@ Iraq's banking system plays a significant role in facilitating Iranian access to
             content: `<ul class="space-y-3 list-none">
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span>When Islamic State fighters swept across northern and western Iraq in 2014, the U.S.-trained Iraqi army collapsed. Baghdad turned to Iranian-backed Shia militias as an emergency fighting force. The Popular Mobilization Forces (PMF) was formalized and placed on the government payroll.</span>
+  <span><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">When Islamic State fighters swept across northern and western Iraq in 2014, the U.S.-trained Iraqi army collapsed. Baghdad turned to Iranian-backed Shia militias as an emergency fighting force. The Popular Mobilization Forces (PMF) was formalized and placed on the government payroll.<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citation [23]</span></span><a href="https://carnegieendowment.org/research/2017/04/the-popular-mobilization-forces-and-iraqs-future?lang=en" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[23]</a></span>
 </li>
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span>A decade later, this emergency arrangement would metastasize into deeply State-integrated financial infrastructure: a $2.7 billion annual state-funded apparatus with 130,000-145,000 fighters organized into 67 factions - 90% Shia - that openly take orders from Iran's Supreme Leader Khamenei while simultaneously receiving salaries through Iraq's national payment infrastructure via Qi Card.</span>
+  <span><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">Over the following decade, this emergency militia structure evolved into a state‑funded security apparatus with a multibillion‑dollar annual budget (roughly $2.6–2.9 billion in recent years) and well over 120,000 registered fighters, organized into about 67 predominantly Shia factions whose leaders publicly pledge allegiance to Iran's Supreme Leader Ali Khamenei. These forces receive salaries through Iraq's national electronic payment infrastructure via Qi Card and Rafidain Bank, with more than 200,000 PMF members reportedly paid this way by the mid‑2020s.<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citations [13], [23]</span></span><a href="https://www.wsj.com/world/middle-east/iran-visa-mastercard-dollars-sanctions-militias-0ecea0b9?st=SeWFzj&reflink=desktopwebshare_permalink" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[13]</a><a href="https://carnegieendowment.org/research/2017/04/the-popular-mobilization-forces-and-iraqs-future?lang=en" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[23]</a></span>
 </li>
 </ul>`,
             html: true,
@@ -508,11 +508,11 @@ Iraq's banking system plays a significant role in facilitating Iranian access to
             content: `<ul class="space-y-3 list-none">
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span>The PMF divides into two doctrinal axes. The first follows Grand Ayatollah Ali al-Sistani and the Najaf religious establishment—the "shrine brigades" (Hashd al-Atabat) that maintain nominal loyalty to the Iraqi state.</span>
+  <span><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">The PMF divides into two doctrinal axes. The first follows Grand Ayatollah Ali al-Sistani and the Najaf religious establishment—the "shrine brigades" (Hashd al-Atabat) that maintain nominal loyalty to the Iraqi state.<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citations [23], [24]</span></span><a href="https://carnegieendowment.org/research/2017/04/the-popular-mobilization-forces-and-iraqs-future?lang=en" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[23]</a><a href="https://middleeastbroadcastingnetworks.substack.com/p/iraqi-militias-loyal-to-khameneiand" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[24]</a></span>
 </li>
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span>The second—and dominant—axis follows Wilayat al-Faqih (Guardianship of the Jurist), meaning direct allegiance to Khamenei. These factions operate under IRGC-Quds Force command, executing Iranian foreign policy objectives on Iraqi soil while drawing <strong>Iraqi government paychecks.</strong></span>
+  <span><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">The second—and dominant—axis follows Wilayat al-Faqih (Guardianship of the Jurist), meaning direct allegiance to Khamenei. These factions operate under IRGC-Quds Force command, executing Iranian foreign policy objectives on Iraqi soil while drawing <strong>Iraqi government paychecks.</strong><span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citations [23], [24]</span></span><a href="https://carnegieendowment.org/research/2017/04/the-popular-mobilization-forces-and-iraqs-future?lang=en" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[23]</a><a href="https://middleeastbroadcastingnetworks.substack.com/p/iraqi-militias-loyal-to-khameneiand" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[24]</a></span>
 </li>
 </ul>`,
             html: true,
@@ -537,29 +537,29 @@ Iraq's banking system plays a significant role in facilitating Iranian access to
                 position: "Chairman",
                 name: "<strong>Faleh al-Fayyadh</strong>",
                 designation: "Designated December 2019",
-                notes: "Former Dawa Party member; resided in Iran 1970s-2003; <strong>cooperates with IRGC to implement Iranian instructions</strong>",
-                additionalDetails: "Chair of Popular Mobilization Commission (PMC/PMF); US Global Magnitsky sanctions for protest crackdown abuses; longtime National Security Adviser; leads Ataa Movement",
+                notes: '<span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">Former Dawa Party member; resided in Iran 1970s-2003; <strong>cooperates with IRGC to implement Iranian instructions</strong><span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citation [25]</span></span><a href="https://home.treasury.gov/news/press-releases/sm1231" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[25]</a>',
+                additionalDetails: '<span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">Chair of Popular Mobilization Commission (PMC/PMF); US Global Magnitsky sanctions for protest crackdown abuses; longtime National Security Adviser; leads Ataa Movement<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citation [25]</span></span><a href="https://home.treasury.gov/news/press-releases/sm1231" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[25]</a>',
               },
               {
                 position: "Chief of Staff",
                 name: "<strong>Abdul Aziz al-Mohammadawi (Abu Fadak)</strong>",
                 designation: "Designated January 2021 (terrorism, E.O. 13224)",
-                notes: "Former Kata'ib Hezbollah Sec-Gen; succeeded Abu Mahdi al-Muhandis after Jan 2020 drone strike; declared in Tehran Apr 2024: <strong>\"PMF takes orders from Khamenei\"</strong>",
-                additionalDetails: "Veteran of anti-Saddam resistance; <strong>Iranian proxy ties; active in ISIS campaigns; PMF's most senior operational commander; subject to OFAC/E.O. 13224 terror sanctions</strong>",
+                notes: '<span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">Former Kata\'ib Hezbollah Sec-Gen; succeeded Abu Mahdi al-Muhandis after Jan 2020 drone strike; declared in Tehran Apr 2024: <strong>"PMF takes orders from Khamenei"</strong><span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citations [26], [27]</span></span><a href="https://www.washingtoninstitute.org/policy-analysis/us-designation-kataib-hezbollahs-abu-fadak" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[26]</a><a href="https://www.washingtoninstitute.org/policy-analysis/iraqi-pmf-chief-staff-commits-fulfill-iranian-supreme-leaders-plans" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[27]</a>',
+                additionalDetails: '<span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">Veteran of anti-Saddam resistance; <strong>Iranian proxy ties; active in ISIS campaigns; PMF\'s most senior operational commander; subject to OFAC/E.O. 13224 terror sanctions</strong><span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citations [26], [27]</span></span><a href="https://www.washingtoninstitute.org/policy-analysis/us-designation-kataib-hezbollahs-abu-fadak" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[26]</a><a href="https://www.washingtoninstitute.org/policy-analysis/iraqi-pmf-chief-staff-commits-fulfill-iranian-supreme-leaders-plans" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[27]</a>',
               },
               {
                 position: "Secretary",
                 name: "<strong>Abu Muntadhar Tahsin al-Aboudi al-Husseini</strong>",
                 designation: "____",
                 notes: "Administrative oversight",
-                additionalDetails: "Birth name Tahseen Abid Murat al-Abboudi; PMF chief of operations (prior); alleged role in protester killings 2019; supervises PMF's new Human Rights Department",
+                additionalDetails: '<span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">Birth name Tahseen Abid Murat al-Abboudi; PMF chief of operations (prior); alleged role in protester killings 2019; supervises PMF\'s new Human Rights Department<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citation [28]</span></span><a href="https://www.washingtoninstitute.org/policy-analysis/human-rights-abusers-set-pmf-department-human-rights" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[28]</a>',
               },
               {
                 position: "Operations Commander",
                 name: "<strong>Abu Ali Adnan Ibrahim Mohsen al-Basri</strong>",
                 designation: "____",
                 notes: "Tactical command",
-                additionalDetails: "Badr Organization veteran; linked to Supreme Committee for Combating Corruption; <strong>reportedly worked under Soleimani</strong>; principal PMF operational planner",
+                additionalDetails: '<span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">Badr Organization veteran; linked to Supreme Committee for Combating Corruption; <strong>reportedly worked under Soleimani</strong>; principal PMF operational planner<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citation [29]</span></span><a href="https://english.mojahedin.org/news/world-news/a-long-list-of-iraqi-politicians-and-militia-commanders-on-irans-payroll/" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[29]</a>',
               },
             ],
           },
@@ -568,24 +568,24 @@ Iraq's banking system plays a significant role in facilitating Iranian access to
           id: "weapons-smuggling-section",
           type: "TEXT_BLOCK",
           content: {
-            content: `<p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">A leaked U.S. intelligence document, as reported by the Washington Post in May 2023, implicated Abu Fadak (Abdul Aziz al-Mohammadawi), the PMF chief of staff, in a weapons-smuggling scheme that funneled arms to Iran and its proxy groups for attacks against U.S. forces in Syria.</p>
+            content: `<p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800"><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">A leaked U.S. intelligence document, as reported by the Washington Post in May 2023, implicated Abu Fadak (Abdul Aziz al-Mohammadawi), the PMF chief of staff, in a weapons-smuggling scheme that funneled arms to Iran and its proxy groups for attacks against U.S. forces in Syria.<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citations [30], [31]</span></span><a href="https://www.timesofisrael.com/leaked-us-intel-files-iran-smuggling-weapons-hidden-in-earthquake-relief-to-syria/" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[30]</a><a href="https://www.washingtonpost.com/national-security/2023/05/07/iran-syria-weapons-leaked-documents/" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[31]</a></p>
 <p class="mb-2 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800 font-semibold">Key Details from the Leak:</p>
 <ul class="space-y-3 list-none mb-4">
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span class="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">The classified report detailed how Iran and its affiliated militias, using the aftermath of a devastating earthquake, hid weapons (including rifles, ammunition, and drones) within humanitarian aid shipments routed through Iraq into Syria.</span>
+  <span class="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800"><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">The classified report detailed how Iran and its affiliated militias, using the aftermath of a devastating earthquake, hid weapons (including rifles, ammunition, and drones) within humanitarian aid shipments routed through Iraq into Syria.<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citations [30], [31]</span></span><a href="https://www.timesofisrael.com/leaked-us-intel-files-iran-smuggling-weapons-hidden-in-earthquake-relief-to-syria/" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[30]</a><a href="https://www.washingtonpost.com/national-security/2023/05/07/iran-syria-weapons-leaked-documents/" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[31]</a></span>
 </li>
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span class="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">Abu Fadak was identified as complicit in organizing these smuggling convoys, <strong>leveraging his position within the PMF to facilitate both the logistics and cover for the operation.</strong></span>
+  <span class="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800"><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">Abu Fadak was identified as complicit in organizing these smuggling convoys, <strong>leveraging his position within the PMF to facilitate both the logistics and cover for the operation.</strong><span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citations [30], [31]</span></span><a href="https://www.timesofisrael.com/leaked-us-intel-files-iran-smuggling-weapons-hidden-in-earthquake-relief-to-syria/" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[30]</a><a href="https://www.washingtonpost.com/national-security/2023/05/07/iran-syria-weapons-leaked-documents/" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[31]</a></span>
 </li>
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span class="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800"><strong>This network provided the means for Iran-backed groups to launch attacks on U.S. military positions in Syria</strong>, escalating regional tensions and complicating the efforts of both U.S. and Israeli militaries to interdict these transfers.</span>
+  <span class="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800"><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5"><strong>This network provided the means for Iran-backed groups to launch attacks on U.S. military positions in Syria</strong>, escalating regional tensions and complicating the efforts of both U.S. and Israeli militaries to interdict these transfers.<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citations [30], [31]</span></span><a href="https://www.timesofisrael.com/leaked-us-intel-files-iran-smuggling-weapons-hidden-in-earthquake-relief-to-syria/" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[30]</a><a href="https://www.washingtonpost.com/national-security/2023/05/07/iran-syria-weapons-leaked-documents/" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[31]</a></span>
 </li>
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span class="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">PMF and Iraqi government sources deny the allegations, while independent confirmations from Israeli officials and separate intelligence assessments support the existence of the arms-smuggling operation.</span>
+  <span class="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800"><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">PMF and Iraqi government sources deny the allegations, while independent confirmations from Israeli officials and separate intelligence assessments support the existence of the arms-smuggling operation.<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citations [30], [31]</span></span><a href="https://www.timesofisrael.com/leaked-us-intel-files-iran-smuggling-weapons-hidden-in-earthquake-relief-to-syria/" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[30]</a><a href="https://www.washingtonpost.com/national-security/2023/05/07/iran-syria-weapons-leaked-documents/" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[31]</a></span>
 </li>
 </ul>`,
             variant: "body",
@@ -596,10 +596,10 @@ Iraq's banking system plays a significant role in facilitating Iranian access to
           id: "abu-fadak-statement",
           type: "TEXT_BLOCK",
           content: {
-            content: `<p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">On April 5, 2024, Abu Fadak (Abdul Aziz al-Mohammadawi), chief of staff of the Popular Mobilization Forces, traveled to Tehran for Qods Day marches, where he publicly stated to media, <strong>"The PMF is a fundamental part of the battle in Gaza and Palestine"</strong>. <em>(Potentially referring to Hamas, which is a U.S. designated terror organization and the major Iranian funded proxy in the region. Effectively implicitly linking Iraqi Popular Mobilization Forces (financed by Iraqi state funding, <strong>enabled with Qi Card</strong>) with current U.S. designated terror organizations in Gaza.)</em></p>
-<p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">This statement by Abu Fadak, "The PMF is a fundamental part of the battle in Gaza and Palestine", is a rare public admission by the PMF's highest military commander that his Iraqi state-funded organization is participating in a regional conflict that the Iraqi state is not party to. A documented publicly stated quote, one of many instances of documented sources of evidence, linking Iraqi PMF, <strong>which have been financed using Qi Card</strong>, to Iranian terror proxies and designated terrorist organizations.</p>
-<p class="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">Abu Fadak was also very blunt about the fact that he takes orders from a foreign official, Iran's Supreme Leader Ali Khamenei:</p>
-<p class="mt-4 mb-8 sm:mb-10 md:mb-12 text-sm sm:text-base md:text-lg font-medium sm:font-normal leading-relaxed text-slate-900 italic pl-4 border-l-4 border-slate-300">"We are waiting for the [Supreme] Leader to express his view on the next step...What will the response be to the aggression on the Iranian consulate and the killing of some of the [Islamic Revolutionary Guard Corps, or IRGC] commanders?...After the criminal [attack] on the consulate in Damascus, we came to the Islamic Republic to first express our solidarity with the vision and the plan of the Leader and the Imam...and second is to renew our covenant [i.e., loyalty to the Supreme Leader] and wait for the Leader's decision"</p>`,
+            content: `<p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800"><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">On April 5, 2024, Abu Fadak (Abdul Aziz al-Mohammadawi), chief of staff of the Popular Mobilization Forces, traveled to Tehran for Qods Day marches, where he publicly stated to media, <strong>"The PMF is a fundamental part of the battle in Gaza and Palestine"</strong>. <em>(Potentially referring to Hamas, which is a U.S. designated terror organization and the major Iranian funded proxy in the region. Effectively implicitly linking Iraqi Popular Mobilization Forces (financed by Iraqi state funding, <strong>enabled with Qi Card</strong>) with current U.S. designated terror organizations in Gaza.)</em><span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citation [27]</span></span><a href="https://www.washingtoninstitute.org/policy-analysis/iraqi-pmf-chief-staff-commits-fulfill-iranian-supreme-leaders-plans" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[27]</a></p>
+<p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800"><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">This statement by Abu Fadak, "The PMF is a fundamental part of the battle in Gaza and Palestine", is a rare public admission by the PMF's highest military commander that his Iraqi state-funded organization is participating in a regional conflict that the Iraqi state is not party to. A documented publicly stated quote, one of many instances of documented sources of evidence, linking Iraqi PMF, <strong>which have been financed using Qi Card</strong>, to Iranian terror proxies and designated terrorist organizations.<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citation [27]</span></span><a href="https://www.washingtoninstitute.org/policy-analysis/iraqi-pmf-chief-staff-commits-fulfill-iranian-supreme-leaders-plans" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[27]</a></p>
+<p class="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800"><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">Abu Fadak was also very blunt about the fact that he takes orders from a foreign official, Iran's Supreme Leader Ali Khamenei:<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citation [27]</span></span><a href="https://www.washingtoninstitute.org/policy-analysis/iraqi-pmf-chief-staff-commits-fulfill-iranian-supreme-leaders-plans" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[27]</a></p>
+<p class="mt-4 mb-8 sm:mb-10 md:mb-12 text-sm sm:text-base md:text-lg font-medium sm:font-normal leading-relaxed text-slate-900 italic pl-4 border-l-4 border-slate-300"><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">"We are waiting for the [Supreme] Leader to express his view on the next step...What will the response be to the aggression on the Iranian consulate and the killing of some of the [Islamic Revolutionary Guard Corps, or IRGC] commanders?...After the criminal [attack] on the consulate in Damascus, we came to the Islamic Republic to first express our solidarity with the vision and the plan of the Leader and the Imam...and second is to renew our covenant [i.e., loyalty to the Supreme Leader] and wait for the Leader's decision"<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citation [27]</span></span><a href="https://www.washingtoninstitute.org/policy-analysis/iraqi-pmf-chief-staff-commits-fulfill-iranian-supreme-leaders-plans" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[27]</a></p>`,
             variant: "body",
             html: true,
           },
@@ -640,11 +640,11 @@ Iraq's banking system plays a significant role in facilitating Iranian access to
             content: `<ul class="space-y-3 list-none">
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span>Iran-aligned Shia militia, controls PMF Brigades 45, 46, and 47</span>
+  <span><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">Iran-aligned Shia militia, controls PMF Brigades 45, 46, and 47<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citation [32]</span></span><a href="https://www.washingtoninstitute.org/policy-analysis/kataib-hezbollah-part-iraqs-pmf" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[32]</a></span>
 </li>
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span>Designated as a terrorist organization by the United States and sanctioned as an Iran-aligned militia backed, trained, and equipped by the IRGC-Qods Force</span>
+  <span><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">Designated as a terrorist organization by the United States and sanctioned as an Iran-aligned militia backed, trained, and equipped by the IRGC-Qods Force<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citation [32]</span></span><a href="https://www.washingtoninstitute.org/policy-analysis/kataib-hezbollah-part-iraqs-pmf" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[32]</a></span>
 </li>
 </ul>`,
             html: true,
@@ -667,11 +667,11 @@ Iraq's banking system plays a significant role in facilitating Iranian access to
             content: `<ul class="space-y-3 list-none">
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span>Iran-backed Shia militia, commands brigades 41, 42, and 43 in Iraq's Popular Mobilization Forces</span>
+  <span><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">Iran-backed Shia militia, commands brigades 41, 42, and 43 in Iraq's Popular Mobilization Forces<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citation [33]</span></span><a href="https://www.washingtoninstitute.org/policy-analysis/profile-asaib-ahl-al-haq-0" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[33]</a></span>
 </li>
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span>Designated by the U.S. as both a Foreign Terrorist Organization and a Specialty Designated Global Terrorist, along with its leader Qais al-Khazali</span>
+  <span><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">Designated by the U.S. as both a Foreign Terrorist Organization and a Specialty Designated Global Terrorist, along with its leader Qais al-Khazali<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citation [33]</span></span><a href="https://www.washingtoninstitute.org/policy-analysis/profile-asaib-ahl-al-haq-0" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[33]</a></span>
 </li>
 </ul>`,
             html: true,
@@ -694,15 +694,15 @@ Iraq's banking system plays a significant role in facilitating Iranian access to
             content: `<ul class="space-y-3 list-none">
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span>Iranian backed Shia militia, operates the Iraqi state-funded 12th Brigade of the Popular Mobilization Forces</span>
+  <span><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">Iranian backed Shia militia, operates the Iraqi state-funded 12th Brigade of the Popular Mobilization Forces<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citation [34]</span></span><a href="https://www.washingtoninstitute.org/policy-analysis/profile-harakat-hezbollah-al-nujaba" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[34]</a></span>
 </li>
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span>Openly loyal to Iran's Supreme leader, positions itself as part of the "Axis of Resistance" against the U.S., Israel, and their partners</span>
+  <span><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">Openly loyal to Iran's Supreme leader, positions itself as part of the "Axis of Resistance" against the U.S., Israel, and their partners<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citation [34]</span></span><a href="https://www.washingtoninstitute.org/policy-analysis/profile-harakat-hezbollah-al-nujaba" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[34]</a></span>
 </li>
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span>Multiple governments list Harakat Hezbollah al-Nujaba and its leadership under terrorism sanctions, underscoring its reputation as one of the most aggressive Iraqi Iran-aligned militias</span>
+  <span><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">Multiple governments list Harakat Hezbollah al-Nujaba and its leadership under terrorism sanctions, underscoring its reputation as one of the most aggressive Iraqi Iran-aligned militias<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citation [34]</span></span><a href="https://www.washingtoninstitute.org/policy-analysis/profile-harakat-hezbollah-al-nujaba" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[34]</a></span>
 </li>
 </ul>`,
             html: true,
@@ -725,21 +725,132 @@ Iraq's banking system plays a significant role in facilitating Iranian access to
             content: `<ul class="space-y-3 list-none">
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span>Major Shia Islamist militia, widely characterized as Iran's oldest and most deeply embedded proxy in the country</span>
+  <span><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">Major Shia Islamist militia, widely characterized as Iran's oldest and most deeply embedded proxy in the country<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citations [35], [36]</span></span><a href="https://www.washingtoninstitute.org/policy-analysis/profile-badr-organization" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[35]</a><a href="https://www.unitedagainstnucleariran.com/report/badr-organization" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[36]</a></span>
 </li>
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span>Composed largely of Iraqi Shia exiles and POWs, organized and trained by the IRGC to originally fight Saddam Hussein</span>
+  <span><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">Composed largely of Iraqi Shia exiles and POWs, organized and trained by the IRGC to originally fight Saddam Hussein<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citations [35], [36]</span></span><a href="https://www.washingtoninstitute.org/policy-analysis/profile-badr-organization" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[35]</a><a href="https://www.unitedagainstnucleariran.com/report/badr-organization" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[36]</a></span>
 </li>
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span>Led by Hadi al-Amiri, an openly pro-Iranian figure who has simultaneously commanded Badr's militia and held senior government positions</span>
+  <span><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">Led by Hadi al-Amiri, an openly pro-Iranian figure who has simultaneously commanded Badr's militia and held senior government positions<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citations [35], [36]</span></span><a href="https://www.washingtoninstitute.org/policy-analysis/profile-badr-organization" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[35]</a><a href="https://www.unitedagainstnucleariran.com/report/badr-organization" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[36]</a></span>
 </li>
 <li class="flex items-start">
   <span class="mr-3 text-slate-400">•</span>
-  <span>Despite its deep IRGC ties, Badr has generally <strong>avoided direct designation by the U.S. government</strong>, in part by embedding itself in formal political processes and avoiding the most visible rocket and drone campaigns carried out by more overt "special groups" like Kata'ib Hezbollah, Asa'ib Ahl al‑Haq, or Harakat Hezbollah al‑Nujaba. Nonetheless, many Western and regional assessments treat the Badr Organization as a <strong>central node</strong> in Iran's security architecture in Iraq, <strong>linking Tehran to both the PMF and the Iraqi security ministries.</strong></span>
+  <span><span class="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">Despite its deep IRGC ties, Badr has generally <strong>avoided direct designation by the U.S. government</strong>, in part by embedding itself in formal political processes and avoiding the most visible rocket and drone campaigns carried out by more overt "special groups" like Kata'ib Hezbollah, Asa'ib Ahl al‑Haq, or Harakat Hezbollah al‑Nujaba. Nonetheless, many Western and regional assessments treat the Badr Organization as a <strong>central node</strong> in Iran's security architecture in Iraq, <strong>linking Tehran to both the PMF and the Iraqi security ministries.</strong><span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">Citations [35], [36]</span></span><a href="https://www.washingtoninstitute.org/policy-analysis/profile-badr-organization" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[35]</a><a href="https://www.unitedagainstnucleariran.com/report/badr-organization" target="_blank" rel="noopener noreferrer" class="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super">[36]</a></span>
 </li>
 </ul>`,
+            html: true,
+          },
+        },
+        {
+          id: "payment-pipeline-title",
+          type: "STANDARD_HEADING",
+          content: {
+            heading: {
+              title: "The Payment Pipeline: How Qi Card Enabled the Militia-State Fusion",
+              headingType: "h2",
+            },
+          },
+        },
+        {
+          id: "payment-pipeline-text",
+          type: "TEXT_BLOCK",
+          content: {
+            content: `<p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">The designated terrorist organizations, sanctioned commanders, and Iranian proxy networks documented above share one common thread: <strong>they all received Iraqi state funding through the Qi Card payment infrastructure.</strong></p>
+<p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">When Iraq formalized the PMF in 2014 and placed its fighters on government payroll, Qi Card—already embedded as the nation's dominant salary disbursement system—became the financial conduit connecting Baghdad's treasury to Tehran's proxies. The same payment cards that delivered salaries to schoolteachers and pensioners simultaneously funded brigades commanded by U.S.-designated terrorists who openly declared allegiance to Iran's Supreme Leader.</p>
+<p class="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">Qi Card's founders—Bahaa Abdul Hussein and Iraq's two largest state banks—had built infrastructure that processed government payroll at national scale. When the PMF's $2.7 billion annual budget flowed through that infrastructure, Qi Card became structurally complicit in financing organizations that the United States had designated as terrorist threats.</p>`,
+            variant: "body",
+            html: true,
+          },
+        },
+        {
+          id: "documented-evidence-title",
+          type: "STANDARD_HEADING",
+          content: {
+            heading: {
+              title: "Documented Evidence: Qi Card's Role in Financing Iran-Backed Iraqi State Militias",
+              headingType: "h2",
+            },
+          },
+        },
+        {
+          id: "documented-evidence-bullets",
+          type: "TEXT_BLOCK_WITH_BORDER",
+          content: {
+            content: `<ul class="space-y-3 list-none">
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span><strong>200,000+ militia members</strong> received salaries through Qi Card</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span><strong>Transaction volume explosion:</strong> Qi Card volumes grew from $10 million monthly (early 2023) to over $500 million monthly (early 2025) - a +5,000% increase coinciding with intensified militia activity</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span><strong>Ghost fighter fraud:</strong> Up to 70,000 forged PMF members registered on government payroll with salaries disbursed via Qi Cards</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span><strong>Congressional identification:</strong> U.S. Representatives Wilson and Steube explicitly named Qi Card as "the e-payment system which processes the payroll for the PMF militias" in their May 2025 sanctions demand letter</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-slate-400">•</span>
+  <span><strong>Card network response:</strong> Mastercard blocked over 100,000 Iraqi cards and Visa flagged 70,000 cards in 2025 after U.S. Treasury pressure identified systematic militia exploitation of the payment infrastructure</span>
+</li>
+</ul>`,
+            html: true,
+          },
+        },
+        {
+          id: "iraqi-treasury-title",
+          type: "STANDARD_HEADING",
+          content: {
+            heading: {
+              title: "From Iraqi Treasury to Iranian Proxy",
+              headingType: "h2",
+            },
+          },
+        },
+        {
+          id: "iraqi-treasury-text",
+          type: "TEXT_BLOCK",
+          content: {
+            content: `<p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">The financial architecture functioned as follows: Iraq's Ministry of Finance allocated funds to the Popular Mobilization Commission. The PMC maintained payroll rosters for its militia factions and fighters. These rosters included personnel from Kata'ib Hezbollah, Asa'ib Ahl al-Haq, Harakat Hezbollah al-Nujaba, and other designated terrorist organizations. <strong>Qi Card</strong>, as the government's contracted payment processor, <strong>issued cards and disbursed salaries to these rosters through its network.</strong></p>
+<p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">The system created perfect cover: militia fighters appeared as ordinary government employees. Their salaries flowed through the same legitimate banking channels as teachers, doctors, and civil servants. The terrorist designation of their parent organizations became invisible at the transaction level—every payment looked like routine Iraqi government payroll.</p>
+<p class="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">This structural reality meant that Qi Card's core business model—processing Iraqi government payments—was inseparable from financing designated terrorist organizations. The company could not serve the Iraqi state without simultaneously serving the Iranian proxies embedded within it.</p>`,
+            variant: "body",
+            html: true,
+          },
+        },
+        {
+          id: "ecosystem-title",
+          type: "STANDARD_HEADING",
+          content: {
+            heading: {
+              title: "The Ecosystem",
+              headingType: "h2",
+            },
+          },
+        },
+        {
+          id: "ecosystem-text",
+          type: "TEXT_BLOCK",
+          content: {
+            content: `<p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">The Qi Card ecosystem documented in this analysis represents a case study in how legitimate financial infrastructure can be systematically captured for illicit purposes. What began in 2007 as a public-private partnership to modernize Iraqi payments evolved into a primary mechanism for Iranian militia financing.</p>
+<p class="mb-2 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">The evidence chain is direct:</p>
+<ol class="list-decimal list-inside space-y-2 mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800 pl-4">
+<li><strong>Qi Card was founded by Bahaa Abdul Hussein and Iraq's state banks (Rafidain, Rasheed)</strong></li>
+<li><strong>Qi Card became Iraq's dominant government payroll processor</strong></li>
+<li><strong>The PMF was placed on government payroll, processed through Qi Card</strong></li>
+<li><strong>The PMF includes designated terrorist organizations (Kata'ib Hezbollah, Asa'ib Ahl al-Haq, Harakat Hezbollah al-Nujaba) commanded by U.S.-sanctioned individuals</strong></li>
+<li><strong>These organizations openly take orders from Iran's Supreme Leader while receiving Iraqi state salaries via Qi Card</strong></li>
+</ol>
+<p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">This page accurately outlines the deeply embedded infrastructure of Iranian proxy forces into Iraqi state infrastructure, with the overall ecosystem—banks, payment processors, state institutions, and militia networks—enabled and funded using <strong>Qi Card as the financial layer</strong> that made the entire ecosystem operationally possible.</p>
+<p class="mb-4 text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800">All information gathered for this analysis is fully cited using reputable online sources.</p>
+<p class="text-xs sm:text-sm md:text-base font-medium sm:font-normal leading-relaxed text-slate-800 italic pl-4 border-l-4 border-slate-300">The Congressional letter from Representatives Wilson and Steube summarized the stakes: "Sanction Iraq's Financial Institutions Supporting Iran, especially Al-Rafidain Bank and the epayment system Qi-Card, which processes the payroll for the PMF militias. Iraq's ability to receive US dollars through the Federal Reserve is directly supporting Iran and its proxies in Iraq. The US Treasury Department must stop turning a blind eye to Iraq's largest state banks that launder US dollars on behalf of Iran and its proxies."</p>`,
+            variant: "body",
             html: true,
           },
         },
