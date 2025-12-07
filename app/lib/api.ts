@@ -35,6 +35,7 @@ const mockData = {
         links: [
           { title: "Overview", slug: "/knowledgebase/overview", target: "_self" },
           { title: "Ecosystem", slug: "/knowledgebase/ecosystem", target: "_self" },
+          { title: "Primary Sources", slug: "/knowledgebase/primary-sources", target: "_self" },
         ],
       },
     },
