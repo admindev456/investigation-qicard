@@ -220,7 +220,7 @@ const VideoTranscriptPlayer = () => {
       {/* Header Section */}
       <div className="mb-12">
         <h1 className="font-display text-xl sm:text-2xl md:text-3xl lg:text-3xl font-bold leading-snug sm:leading-snug text-black mb-8">
-          The Confession: A U.S.-Sanctioned Terrorist's Live Television Admission of Sanctions Evasion
+          The Confession: A U.S.-Sanctioned Terrorist&apos;s Live Television Admission of Sanctions Evasion
         </h1>
         <p className="mb-3 sm:mb-4 md:mb-4 text-sm sm:text-base md:text-lg lg:text-lg font-medium sm:font-normal leading-relaxed sm:leading-relaxed text-black max-w-3xl">
           On Iraqi television, Aras Habib Karim—designated by the U.S. Treasury as a Specially Designated Global Terrorist for IRGC-Quds Force links—openly described the methodology of evading American financial sanctions using shell companies and nominee structures.
@@ -234,16 +234,16 @@ const VideoTranscriptPlayer = () => {
 
         <div className="text-xs sm:text-sm md:text-base font-normal leading-relaxed text-slate-800 max-w-4xl mb-4">
           <p className="mb-4">
-            The following video evidence captures a <strong>U.S.-sanctioned individual</strong>—designated under <strong>Executive Order 13224</strong> as a <strong>Specially Designated Global Terrorist (SDGT)</strong> for links to <strong>Iran's Islamic Revolutionary Guard Corps-Quds Force</strong>—openly describing <strong>sanctions evasion methodology</strong> on Iraqi national television. The speaker discusses:
+            The following video evidence captures a <strong>U.S.-sanctioned individual</strong>—designated under <strong>Executive Order 13224</strong> as a <strong>Specially Designated Global Terrorist (SDGT)</strong> for links to <strong>Iran&apos;s Islamic Revolutionary Guard Corps-Quds Force</strong>—openly describing <strong>sanctions evasion methodology</strong> on Iraqi national television. The speaker discusses:
           </p>
           <ul className="list-disc pl-5 space-y-1 mb-4">
-            <li>Learning <strong>"from the Americans"</strong> how to circumvent their own sanctions</li>
+            <li>Learning <strong>&quot;from the Americans&quot;</strong> how to circumvent their own sanctions</li>
             <li>Operating through <strong>shell companies and nominee names</strong> to avoid detection</li>
             <li>Personal financial exposure of <strong>$130 million</strong> and plans to generate <strong>$260 million</strong> by 2026</li>
             <li>Explicit requests for <strong>shell company assistance</strong> during the broadcast</li>
           </ul>
           <p className="text-xs sm:text-sm border-t border-slate-200 pt-4 mt-4 text-slate-600">
-            This admission, broadcast on Al-Taghiir TV's "From Baghdad" program, represents a brazen public acknowledgment of the systematic sanctions evasion infrastructure operating within Iraq's financial ecosystem.
+            This admission, broadcast on Al-Taghiir TV&apos;s &quot;From Baghdad&quot; program, represents a brazen public acknowledgment of the systematic sanctions evasion infrastructure operating within Iraq&apos;s financial ecosystem.
           </p>
         </div>
       </div>
@@ -323,12 +323,12 @@ const VideoTranscriptPlayer = () => {
           {/* Video Evidence Metadata - Compact Caption */}
           <div className="mt-3 text-left">
             <div className="text-[10px] text-slate-600 flex flex-wrap items-center gap-x-4 gap-y-1">
-              <div><span className="font-medium">Source Program:</span> "From Baghdad" (من بغداد)</div>
+              <div><span className="font-medium">Source Program:</span> &quot;From Baghdad&quot; (من بغداد)</div>
               <div><span className="font-medium">Broadcast Network:</span> Al-Taghiir TV (التغيير)</div>
               <div><span className="font-medium">Host:</span> Najm Al-Rubaie</div>
               <div className="flex items-center gap-2">
                 <span className="text-[9px] text-slate-500 uppercase font-semibold">On-Screen Chyron:</span>
-                <span className="text-[10px] text-slate-700 italic">"Habib: The Americans taught us how to deceive them on financial sanctions matters"</span>
+                <span className="text-[10px] text-slate-700 italic">&quot;Habib: The Americans taught us how to deceive them on financial sanctions matters&quot;</span>
               </div>
             </div>
           </div>
@@ -416,7 +416,7 @@ const VideoTranscriptPlayer = () => {
           al-Bilad Islamic Bank, where Karim serves as chairman and chief executive, was also designated on May 15, 2018. On October 29, 2020, the Treasury Department updated the listing with additional aliases, including al Atta Islamic Bank for Investment and Finance. The designation remains active.
         </p>
         <p>
-          His OFAC designation represents one node in a broader ecosystem of Iran-aligned financial networks operating within Iraq. The <strong>Badr Organization</strong>, to which Habib maintains documented connections, represents Iran's oldest and most deeply embedded proxy in Iraq, founded in the 1980s under direct IRGC tutelage. Western assessments characterize Badr as a central node linking Tehran to both the PMF and Iraqi security ministries.
+          His OFAC designation represents one node in a broader ecosystem of Iran-aligned financial networks operating within Iraq. The <strong>Badr Organization</strong>, to which Habib maintains documented connections, represents Iran&apos;s oldest and most deeply embedded proxy in Iraq, founded in the 1980s under direct IRGC tutelage. Western assessments characterize Badr as a central node linking Tehran to both the PMF and Iraqi security ministries.
         </p>
       </div>
     </div>
