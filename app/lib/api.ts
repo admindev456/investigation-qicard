@@ -36,6 +36,8 @@ const mockData = {
           { title: "Overview", slug: "/knowledgebase/overview", target: "_self" },
           { title: "Ecosystem", slug: "/knowledgebase/ecosystem", target: "_self" },
           { title: "Primary Sources", slug: "/knowledgebase/primary-sources", target: "_self" },
+          { title: "Washington Institution Report", slug: "/knowledgebase/washington-institution-report", target: "_self" },
+          { title: "Evidence Archive", slug: "/knowledgebase/evidence-archive", target: "_self" },
         ],
       },
     },
