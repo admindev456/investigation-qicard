@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Globals, Header } from "@/app/lib/types";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
@@ -19,10 +19,24 @@ interface HeaderProps {
 
 export default function SiteHeader({ common, instanceId }: HeaderProps) {
   const [showNav, setShowNav] = useState(false);
+  const [isAdmin, setIsAdmin] = useState(false);
   const pathname = usePathname();
   const { globals, header } = common;
   const { links = [] } = globals?.content || {};
   const { links: headerLinks = [] } = header?.content || {};
+
+  useEffect(() => {
+    async function checkAdmin() {
+      try {
+        const res = await fetch('/api/admin/check')
+        const data = await res.json()
+        setIsAdmin(data.isAdmin === true)
+      } catch {
+        setIsAdmin(false)
+      }
+    }
+    checkAdmin()
+  }, [])
 
   return (
     <>
@@ -57,7 +71,19 @@ export default function SiteHeader({ common, instanceId }: HeaderProps) {
               })}
             </nav>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center gap-4">
+            {isAdmin && (
+              <Link 
+                href="/admin" 
+                className="text-sm font-medium text-slate-600 hover:text-sky-600 transition-colors flex items-center gap-1.5"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                Admin
+              </Link>
+            )}
             <LogoutButton />
           </div>
         </div>
@@ -114,6 +140,22 @@ export default function SiteHeader({ common, instanceId }: HeaderProps) {
                 </li>
               );
             })}
+            {/* Admin Link for Mobile */}
+            {isAdmin && (
+              <li>
+                <Link
+                  href="/admin"
+                  onClick={() => setShowNav(false)}
+                  className={`block px-4 py-3 rounded-lg text-base font-medium transition-colors ${
+                    pathname.startsWith('/admin')
+                      ? "bg-sky-50 text-sky-600"
+                      : "text-slate-700 hover:bg-slate-100"
+                  }`}
+                >
+                  Admin Panel
+                </Link>
+              </li>
+            )}
           </ul>
           <div className="mt-6 pt-6 border-t border-slate-200">
             <LogoutButton />
