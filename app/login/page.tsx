@@ -12,6 +12,18 @@ export default function LoginPage() {
   const router = useRouter()
   const supabase = createClient()
 
+  const logAuthEvent = async (eventType: string, userEmail: string, userId?: string) => {
+    try {
+      await fetch('/api/auth/log', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ event_type: eventType, email: userEmail, user_id: userId })
+      })
+    } catch (e) {
+      console.error('Failed to log auth event:', e)
+    }
+  }
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setError('')
@@ -25,7 +37,11 @@ export default function LoginPage() {
     if (signInError) {
       setError(signInError.message)
       setLoading(false)
+      // Log failed attempt
+      await logAuthEvent('failed_attempt', email)
     } else {
+      // Log successful sign in
+      await logAuthEvent('sign_in', email, data.user?.id)
       router.push('/knowledgebase/overview')
       router.refresh()
     }
@@ -81,4 +97,3 @@ export default function LoginPage() {
     </div>
   )
 }
-
