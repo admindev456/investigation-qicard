@@ -128,7 +128,7 @@ const groups: EvidenceGroup[] = [
         title: "Shibl al-Zaydi / Muhammad al-Bawi",
         keyFact: "IRGC coordination and Hezbollah financing",
         files: {
-          originals: [{ label: "Original", filename: "tpic30.jpg" }],
+          originals: [{ label: "Original", filename: "tpic30.png" }],
           translations: [{ label: "English", filename: "tpic30english.png" }],
         },
       },
