@@ -857,6 +857,16 @@ Iraq's banking system plays a significant role in facilitating Iranian access to
             html: true,
           },
         },
+        {
+          id: "isc-governance-suppression-section",
+          type: "ISC_GOVERNANCE_AND_SUPPRESSION",
+          content: {},
+        },
+        {
+          id: "shell-companies-section",
+          type: "SHELL_COMPANIES",
+          content: {},
+        },
       ],
       content: {
         extendedProperties: [
