@@ -2,6 +2,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { Play, Pause, RotateCcw, Volume2, VolumeX, ChevronDown, ChevronUp, FileText } from 'lucide-react';
+import InlineEvidenceCarousel from '@/components/inlineEvidenceCarousel';
 
 const VideoTranscriptPlayer = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -454,6 +455,30 @@ const VideoTranscriptPlayer = () => {
         <p>
           <strong>U.S. Status:</strong> Sanctioned as a Specially Designated Global Terrorist (SDGT) by the U.S. Treasury since November 2018.
         </p>
+
+        {/* Primary Source: Intelligence Profile */}
+        <div className="my-6 p-4 bg-slate-50 border border-slate-200 rounded-lg">
+          <p className="text-xs text-slate-600 leading-relaxed mb-3">
+            <span className="font-semibold text-slate-800">Intelligence documentation</span> identifies al-Zaydi as a key IRGC financial coordinator. Below: al-Zaydi photographed with Muhammad al-Bawi, his deputy at Kata&apos;ib al-Imam Ali—both implicated in corruption and IRGC-linked operations.
+          </p>
+          <InlineEvidenceCarousel
+            title="Primary Source"
+            documents={[
+              {
+                src: "/PrimarySources/tpic30.png",
+                alt: "Intelligence profile showing Shibl al-Zaydi with Muhammad al-Bawi",
+                label: "Original (Arabic)",
+              },
+              {
+                src: "/PrimarySources/tpic30english.png",
+                alt: "English translation of al-Zaydi intelligence profile",
+                label: "English Translation",
+              },
+            ]}
+            caption="Intelligence Profile · Shibl al-Zaydi & Muhammad al-Bawi · IRGC-QF Coordination & Hezbollah Financing"
+          />
+        </div>
+
         <p>
           <strong>Shibl al-Zaydi</strong> is a prime example of how militia leaders in Iraq have evolved from battlefield commanders into wealthy business tycoons. As the head of <strong>Kata&apos;ib al-Imam Ali</strong>, he uses his military power to build a vast business empire. Intelligence reports describe him as one of the richest militia leaders in the country, managing a portfolio that reaches deep into Iraq&apos;s government financial systems, including the <strong>Qi Card</strong> network.
         </p>
@@ -484,6 +509,29 @@ const VideoTranscriptPlayer = () => {
         <p>
           Bahaa Abdul-Hussein Hadi provided the technological infrastructure (biometric cards and the &quot;guaranteed exchange rate&quot; mechanism) that enabled the conversion of Iraqi dinars into hard currency. Al-Zaydi, designated by the U.S. Treasury as a financial coordinator for the IRGC-Qods Force, utilized this infrastructure to industrialize threat finance. By embedding his operations within the Qi Card system, al-Zaydi facilitated the movement of liquidity from the Iraqi state budget into the operational coffers of the IRGC and Lebanese Hezbollah, effectively laundering state funds through a legitimate fintech vehicle.
         </p>
+
+        {/* Primary Source: Public Allegations */}
+        <div className="my-6 p-4 bg-slate-50 border border-slate-200 rounded-lg">
+          <p className="text-xs text-slate-600 leading-relaxed mb-3">
+            <span className="font-semibold text-slate-800">Public awareness of these connections:</span> A viral satirical post explicitly links al-Zaydi, Bahaa, and other figures to an alleged $14M payment for &quot;selling&quot; the Ministry of Communications to Qi Card—reflecting widespread Iraqi perception of this network.
+          </p>
+          <InlineEvidenceCarousel
+            title="Primary Source"
+            documents={[
+              {
+                src: "/PrimarySources/tpic45.jpg",
+                alt: "Satirical Facebook post showing al-Zaydi, Bahaa, and associates with Qi Card",
+                label: "Original (Arabic)",
+              },
+              {
+                src: "/PrimarySources/tpic45english.png",
+                alt: "English translation of satirical post about $14M Ministry deal",
+                label: "English Translation",
+              },
+            ]}
+            caption="Facebook · 'Nation Dismantling for Sale' · $14M Ministry of Communications Allegation · 847 reactions, 154 comments"
+          />
+        </div>
       </div>
     </div>
   );
