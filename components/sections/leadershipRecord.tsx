@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Section } from "@/app/lib/types";
 import { criminalTimelineData } from "@/components/sections/criminalTimeline";
+import InlineEvidenceCarousel from "@/components/inlineEvidenceCarousel";
 
 interface TimelineEvent {
   date: string;
@@ -233,12 +234,36 @@ const LeadershipRecord: React.FC<LeadershipRecordProps> = ({ section }) => {
       {/* Criminal Timeline Section */}
       <div className="mb-12 sm:mb-16 md:mb-20">
         {/* Section Header */}
-        <div className="mb-8">
+        <div className="mb-6">
           <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-black mb-3">
             Criminal Timeline
           </h3>
           <div className="h-px w-12 bg-slate-300"></div>
-                </div>
+        </div>
+
+        {/* CBI Inquiry Context - Pre-Timeline Evidence */}
+        <div className="mb-8 p-4 bg-slate-50 border border-slate-200 rounded-lg">
+          <p className="text-xs sm:text-sm text-slate-700 leading-relaxed mb-4">
+            <span className="font-semibold text-slate-900">Prior Investigation:</span>{" "}
+            Before the criminal convictions below, the Central Bank of Iraq initiated a classified &quot;Secret and Urgent&quot; inquiry into Bahaa Abdul Hussein Hadi, his family members, and associated companies — ordering all licensed banks to report on their accounts and external financial transfers.
+          </p>
+          <InlineEvidenceCarousel
+            title="Primary Source"
+            documents={[
+              {
+                src: "/PrimarySources/tpic25.jpg",
+                alt: "CBI Secret/Urgent inquiry letter ordering investigation into Hadi family accounts",
+                label: "Original (Arabic)",
+              },
+              {
+                src: "/PrimarySources/tpic25english.png",
+                alt: "English translation of CBI inquiry letter",
+                label: "English Translation",
+              },
+            ]}
+            caption="CBI Letter No. 9/7/125 · 4 October 2020 · Banking Directorate, Commercial Banking Supervision · Classified: Secret and Urgent"
+          />
+        </div>
                 
         {/* Timeline Container */}
         <div className="relative">
@@ -450,43 +475,114 @@ const LeadershipRecord: React.FC<LeadershipRecordProps> = ({ section }) => {
                         )}
                     </div>
                   )}
+
+                  {/* Parliamentary Committee Evidence for Torture Entry */}
+                  {event.category === 'torture' && index === 1 && (
+                    <div className="mt-4 mb-3 p-4 bg-slate-50 border border-slate-200 rounded-lg">
+                      <p className="text-xs text-slate-600 leading-relaxed mb-3">
+                        <span className="font-semibold text-slate-800">Official oversight documentation:</span> Parliamentary Committee 148 investigated Committee No. 29&apos;s procedures and documented constitutional violations, including allegations of torture, illegal detention locations, and denial of legal rights—providing official government record of the abuses described above.
+                      </p>
+                      <InlineEvidenceCarousel
+                        title="Primary Source"
+                        documents={[
+                          {
+                            src: "/PrimarySources/tpic26.jpg",
+                            alt: "Parliamentary Committee 148 minutes (Arabic) — oversight of Committee 29",
+                            label: "Original (Arabic) — P1",
+                          },
+                          {
+                            src: "/PrimarySources/tpic27.jpg",
+                            alt: "Parliamentary Committee 148 minutes (Arabic) — page 2",
+                            label: "Original (Arabic) — P2",
+                          },
+                          {
+                            src: "/PrimarySources/tpic26english.png",
+                            alt: "Parliamentary Committee 148 minutes (English) — page 1",
+                            label: "English Translation — P1",
+                          },
+                          {
+                            src: "/PrimarySources/tpic27english.png",
+                            alt: "Parliamentary Committee 148 minutes (English) — page 2",
+                            label: "English Translation — P2",
+                          },
+                        ]}
+                        caption="Parliamentary Committee 148 · Dec 2020 · Oversight of Committee No. 29 · Constitutional Violations & Torture Allegations"
+                      />
+                    </div>
+                  )}
                   
                     {/* Context */}
                     {event.details.context && (
                       index === 1 ? (
-                        <p className="text-xs sm:text-sm font-medium text-black leading-snug mb-3">
-                          <span className="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">
-                            {event.details.context}
-                            <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">
-                              Citation [7]
+                        <>
+                          <p className="text-xs sm:text-sm font-medium text-black leading-snug mb-3">
+                            <span className="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">
+                              {event.details.context}
+                              <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">
+                                Citation [7]
+                              </span>
                             </span>
-                          </span>
-                          <a 
-                            href="https://www.thenationalnews.com/world/mena/two-senior-iraqi-officials-jailed-for-corruption-1.1152685"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super"
-                          >
-                            [7]
-                          </a>
-                        </p>
+                            <a 
+                              href="https://www.thenationalnews.com/world/mena/two-senior-iraqi-officials-jailed-for-corruption-1.1152685"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super"
+                            >
+                              [7]
+                            </a>
+                          </p>
+                          <InlineEvidenceCarousel
+                            title="Primary Source"
+                            documents={[
+                              {
+                                src: "/PrimarySources/tpic2.jpg",
+                                alt: "Original Arabic court document — Criminal conviction of Bahaa Abdul Hussein Abdul Hadi, January 2021",
+                                label: "Original (Arabic)",
+                              },
+                              {
+                                src: "/PrimarySources/tpic2english.png",
+                                alt: "English translation of court conviction document",
+                                label: "English Translation",
+                              },
+                            ]}
+                            caption="Case No. 1/C.C/2021 · Central Anti-Corruption Criminal Court · Al-Karkh Federal Appeal Court, Baghdad"
+                          />
+                        </>
                       ) : index === 2 ? (
-                        <p className="text-xs sm:text-sm font-medium text-black leading-snug mb-3">
-                          <span className="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">
-                            {event.details.context}
-                            <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">
-                              Citation [10]
+                        <>
+                          <p className="text-xs sm:text-sm font-medium text-black leading-snug mb-3">
+                            <span className="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">
+                              {event.details.context}
+                              <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block bg-slate-900 text-white text-xs px-3 py-2 rounded whitespace-nowrap z-10 shadow-lg">
+                                Citation [10]
+                              </span>
                             </span>
-                          </span>
-                          <a 
-                            href="https://shafaq.com/en/Iraq/Judiciary-sentences-three-senior-officials-in-a-state-bank-to-imprisonment-for-embezzlement"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super"
-                          >
-                            [10]
-                          </a>
-                        </p>
+                            <a 
+                              href="https://shafaq.com/en/Iraq/Judiciary-sentences-three-senior-officials-in-a-state-bank-to-imprisonment-for-embezzlement"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-block ml-1.5 text-sky-600 hover:text-sky-700 underline font-semibold text-[10px] sm:text-xs align-super"
+                            >
+                              [10]
+                            </a>
+                          </p>
+                          <InlineEvidenceCarousel
+                            title="Primary Source"
+                            documents={[
+                              {
+                                src: "/PrimarySources/tpic1.jpg",
+                                alt: "Rafidain Bank official letter documenting ISC/Fawri system financial discrepancy",
+                                label: "Original (Arabic)",
+                              },
+                              {
+                                src: "/PrimarySources/tpic1english.png",
+                                alt: "English translation of Rafidain Bank discrepancy letter",
+                                label: "English Translation",
+                              },
+                            ]}
+                            caption="Rafidain Bank Letter No. 2849 · 2 March 2021 · Documenting 2.8B IQD ISC/Fawri System Discrepancy"
+                          />
+                        </>
                       ) : index === 3 ? (
                         <p className="text-xs sm:text-sm font-medium text-black leading-snug mb-3">
                           <span className="relative group border-b-2 border-dotted border-sky-500 cursor-help px-0.5">
