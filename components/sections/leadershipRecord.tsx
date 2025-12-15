@@ -264,6 +264,30 @@ const LeadershipRecord: React.FC<LeadershipRecordProps> = ({ section }) => {
             caption="CBI Letter No. 9/7/125 · 4 October 2020 · Banking Directorate, Commercial Banking Supervision · Classified: Secret and Urgent"
           />
         </div>
+
+        {/* FCI Money Laundering Investigation Summons */}
+        <div className="mb-8 p-4 bg-slate-50 border border-slate-200 rounded-lg">
+          <p className="text-xs sm:text-sm text-slate-700 leading-relaxed mb-4">
+            <span className="font-semibold text-slate-900">Federal Integrity Commission Summons:</span>{" "}
+            The Rusafa Investigation Court, specialized in Integrity, Money Laundering, and Economic Crime cases, formally summoned the International Smart Card Company&apos;s legal representative to appear at the Baghdad Investigation Directorate. The summons specifically concerned ISC withdrawing amounts from current accounts <strong>(#35123 and #35112)</strong> at Al-Rafidain Bank and depositing them into the account of the Iraqi Electronic Payment System Company — indicating a formal money laundering investigation.
+          </p>
+          <InlineEvidenceCarousel
+            title="Primary Source"
+            documents={[
+              {
+                src: "/PrimarySources/tpic28.jpg",
+                alt: "Federal Commission of Integrity summons for money laundering investigation (Arabic)",
+                label: "Original (Arabic)",
+              },
+              {
+                src: "/PrimarySources/tpic28english.png",
+                alt: "Federal Commission of Integrity summons (English translation)",
+                label: "English Translation",
+              },
+            ]}
+            caption="FCI Investigation Directorate · Letter No. M.T.B/T/1052/2020/16567 · Date: 24 May 2021 · Rusafa Investigation Court (Integrity, Money Laundering, Economic Crime)"
+          />
+        </div>
                 
         {/* Timeline Container */}
         <div className="relative">
