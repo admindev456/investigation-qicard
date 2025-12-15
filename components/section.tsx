@@ -20,6 +20,8 @@ import ImageWithText from "./sections/imageWithText";
 import ImageWithCitation from "./sections/imageWithCitation";
 import TextBlockWithBorder from "./sections/textBlockWithBorder";
 import PMFLeadershipTable from "./sections/pmfLeadershipTable";
+import ShellCompanies from "./sections/shellCompanies";
+import ISCGovernanceAndSuppression from "./sections/iscGovernanceAndSuppression";
 
 interface SectionProps {
   section: any;
@@ -48,6 +50,8 @@ const sections: { [key: string]: React.FC<any> } = {
   IMAGE_WITH_CITATION: ImageWithCitation,
   TEXT_BLOCK_WITH_BORDER: TextBlockWithBorder,
   PMF_LEADERSHIP_TABLE: PMFLeadershipTable,
+  SHELL_COMPANIES: ShellCompanies,
+  ISC_GOVERNANCE_AND_SUPPRESSION: ISCGovernanceAndSuppression,
 };
 
 const Section: React.FC<SectionProps> = ({ section, instanceId }) => {
