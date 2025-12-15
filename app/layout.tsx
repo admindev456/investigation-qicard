@@ -17,7 +17,7 @@ export default async function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${merr.variable} font-sans`}>{children}</body>
+      <body className={`${inter.variable} ${merr.variable} font-sans bg-white`}>{children}</body>
     </html>
   );
 }
