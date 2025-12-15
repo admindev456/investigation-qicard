@@ -476,40 +476,6 @@ const LeadershipRecord: React.FC<LeadershipRecordProps> = ({ section }) => {
                     </div>
                   )}
 
-                  {/* Parliamentary Committee Evidence for Torture Entry */}
-                  {event.category === 'torture' && index === 1 && (
-                    <div className="mt-4 mb-3 p-4 bg-slate-50 border border-slate-200 rounded-lg">
-                      <p className="text-xs text-slate-600 leading-relaxed mb-3">
-                        <span className="font-semibold text-slate-800">Official oversight documentation:</span> Parliamentary Committee 148 investigated Committee No. 29&apos;s procedures and documented constitutional violations, including allegations of torture, illegal detention locations, and denial of legal rights—providing official government record of the abuses described above.
-                      </p>
-                      <InlineEvidenceCarousel
-                        title="Primary Source"
-                        documents={[
-                          {
-                            src: "/PrimarySources/tpic26.jpg",
-                            alt: "Parliamentary Committee 148 minutes (Arabic) — oversight of Committee 29",
-                            label: "Original (Arabic) — P1",
-                          },
-                          {
-                            src: "/PrimarySources/tpic27.jpg",
-                            alt: "Parliamentary Committee 148 minutes (Arabic) — page 2",
-                            label: "Original (Arabic) — P2",
-                          },
-                          {
-                            src: "/PrimarySources/tpic26english.png",
-                            alt: "Parliamentary Committee 148 minutes (English) — page 1",
-                            label: "English Translation — P1",
-                          },
-                          {
-                            src: "/PrimarySources/tpic27english.png",
-                            alt: "Parliamentary Committee 148 minutes (English) — page 2",
-                            label: "English Translation — P2",
-                          },
-                        ]}
-                        caption="Parliamentary Committee 148 · Dec 2020 · Oversight of Committee No. 29 · Constitutional Violations & Torture Allegations"
-                      />
-                    </div>
-                  )}
                   
                     {/* Context */}
                     {event.details.context && (
