@@ -125,10 +125,21 @@ const groups: EvidenceGroup[] = [
     heading: "Militia / Political Links",
     items: [
       {
+        title: "Qi Card CEO at Muhammad al-Bawi's Father's Mourning Gathering",
+        date: "Dec 2024",
+        keyFact: "CEO photographed attending condolence gathering for OFAC-designated terrorist Muhammad al-Bawi's family — video titled 'Aerial photography of the condolence gathering for the father of Hajj Muhammad al-Bawi'",
+        files: {
+          originals: [
+            { label: "Gathering Photo", filename: "ceo_and_albawi.jpg" },
+            { label: "CEO Closeup", filename: "closeup.jpg" },
+          ],
+        },
+      },
+      {
         title: "Shibl al-Zaydi / Muhammad al-Bawi",
         keyFact: "IRGC coordination and Hezbollah financing",
         files: {
-          originals: [{ label: "Original", filename: "tpic30.png" }],
+          originals: [{ label: "Original", filename: "tpic30.jpg" }],
           translations: [{ label: "English", filename: "tpic30english.png" }],
         },
       },
