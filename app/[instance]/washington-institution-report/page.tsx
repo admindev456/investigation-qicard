@@ -5,7 +5,7 @@ export default function WashingtonInstitutionReportPage() {
         <div className="max-w-4xl mx-auto px-4 py-10 space-y-10 text-slate-800">
           <section className="space-y-4">
             <h2 className="font-display text-lg sm:text-xl md:text-2xl lg:text-2xl font-bold leading-snug sm:leading-snug text-black">
-              5.0 Independent Policy Analysis: The Washington Institute on PMF Payment Infrastructure
+              Independent Policy Analysis: The Washington Institute on PMF Payment Infrastructure
             </h2>
             <p className="leading-relaxed">
               The systemic exploitation of Iraq&apos;s electronic payment infrastructure for militia financing was not a late-breaking surprise from the 2025 Wall Street Journal exposé. It had been flagged years earlier by Middle East security researchers as a structural vulnerability that Iraqi and international actors chose not to close.
