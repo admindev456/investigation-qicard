@@ -92,6 +92,26 @@ const executives: Person[] = [
     ],
   },
   {
+    id: "hasan-hadi",
+    type: "person",
+    name: "Hasan Abdulhadi",
+    nameAr: "حسن عبد الهادي",
+    role: "Chief Innovation Officer · Son of Bahaa",
+    image: "https://mcrtnvfubthcnkolvjcp.supabase.co/storage/v1/object/public/Profiles/hasanhadi.png",
+    note: "Intergenerational control transfer · Money 20/20 USA representative (Oct 2025)",
+    sanctionsRelevance: "Identified as the son of the principal target, Bahaa Abdul-Hussein Hadi, and currently serves as the Chief Innovation Officer (CIO) of International Smart Card (Qi Card). Hasan represents the 'intergenerational' transfer of control within the network. His executive role secures the family's continued dominance over the private sector stake (IEPS) of the Qi Card Public-Private Partnership, ensuring that decision-making power remains concentrated within the founder's immediate circle despite the legal and reputational controversies surrounding his father.",
+    concerns: [
+      "Money 20/20 USA Representative: Primary representative for Qi Card at the Money 20/20 USA fintech conference in Las Vegas (October 2025), using the platform to rebrand the company as a 'tech exporter' and attract international partnerships, deflecting attention from documented militia payroll fraud and corruption",
+      "Expansion of the Digital Enclosure: As CIO, oversaw the launch of the SuperQi application and is developing gold-backed payment functionality—innovations that deepen the network's capture of the Iraqi consumer economy and create opaque mechanisms for value transfer that could be exploited for sanctions evasion or wealth hardening outside traditional banking rails",
+      "Strategic Initiatives: Spearheaded the integration of the Digital Zone acquisition into the Qi ecosystem and the collaboration with Ant International",
+    ],
+    associatedEntities: ["Qi Card", "International Smart Card (ISC)", "Digital Zone", "SuperQi", "Ant International"],
+    connections: [
+      { name: "Bahaa Abdul Hussein Abdul Hadi", relationship: "Father (Principal)" },
+      { name: "Ali Hussein Muneam", relationship: "Colleague (CEO)" },
+    ],
+  },
+  {
     id: "ahmed-cio",
     type: "person",
     name: "Ahmed Kadhim Mohammed",
