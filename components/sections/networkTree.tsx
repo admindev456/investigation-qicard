@@ -617,56 +617,6 @@ const NetworkTree: React.FC = () => {
             </div>
           )}
 
-          {/* Network Connections */}
-          {item.connections && item.connections.length > 0 && (
-            <div>
-              <h3 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">
-                Network Connections
-              </h3>
-              <div className="space-y-2">
-                {item.connections.map((conn, idx) => (
-                  <div key={idx} className="flex items-center gap-2 text-sm p-2 bg-slate-50 rounded-md">
-                    <span className="text-slate-400">→</span>
-                    <span className="font-medium text-slate-800">{conn.name}</span>
-                    <span className="text-slate-400 text-xs">({conn.relationship})</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {/* Associated Entities (for persons) */}
-          {person?.associatedEntities && person.associatedEntities.length > 0 && (
-            <div>
-              <h3 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">
-                Associated Entities
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {person.associatedEntities.map((entity, idx) => (
-                  <span key={idx} className="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs rounded-md">
-                    {entity}
-                  </span>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {/* Key Figures (for companies) */}
-          {company?.keyFigures && company.keyFigures.length > 0 && (
-            <div>
-              <h3 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">
-                Key Figures
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {company.keyFigures.map((figure, idx) => (
-                  <span key={idx} className="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs rounded-md">
-                    {figure}
-                  </span>
-                ))}
-              </div>
-            </div>
-          )}
-
           {/* Ownership (for Trade X) */}
           {company?.ownership && (
             <div>
