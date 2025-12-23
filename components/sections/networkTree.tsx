@@ -71,7 +71,7 @@ const familyMembers: Person[] = [
     type: "person",
     name: "Ahmed Abdul Hussein Abdul Hadi",
     nameAr: "احمد عبد الحسين عبد الهادي",
-    relation: "Brother",
+    relation: "Family",
     sanctionsRelevance: "Brother of principal. Part of family network maintaining control over Qi Card operations.",
     concerns: [
       "Direct family member of sanctionable principal",
@@ -88,7 +88,7 @@ const familyMembers: Person[] = [
     type: "person",
     name: "Ammar Abdul Hussein Abdul Hadi",
     nameAr: "عمار عبد الحسين عبد الهادي",
-    relation: "Brother",
+    relation: "Family",
     sanctionsRelevance: "Brother of principal. Part of family network maintaining control over Qi Card operations.",
     concerns: [
       "Direct family member of sanctionable principal",
@@ -105,7 +105,7 @@ const familyMembers: Person[] = [
     type: "person",
     name: "Safa Abdul Hussein Abdul Hadi",
     nameAr: "صفاء عبد الحسين عبد الهادي",
-    relation: "Brother",
+    relation: "Family",
     sanctionsRelevance: "Brother of principal. Part of family network maintaining control over Qi Card operations.",
     concerns: [
       "Direct family member of sanctionable principal",
@@ -122,7 +122,7 @@ const familyMembers: Person[] = [
     type: "person",
     name: "Alaa Abdul Hussein Abdul Hadi",
     nameAr: "علاء عبد الحسين عبد الهادي",
-    relation: "Brother",
+    relation: "Family",
     sanctionsRelevance: "Brother of principal. Part of family network maintaining control over Qi Card operations.",
     concerns: [
       "Direct family member of sanctionable principal",
@@ -139,7 +139,7 @@ const familyMembers: Person[] = [
     type: "person",
     name: "Zulfiqar Jaafar",
     nameAr: "ذو الفقار جعفر",
-    relation: "Brother",
+    relation: "Family",
     note: "Also: Jaafar Abdul Hussein Abdul Hadi",
     sanctionsRelevance: "Brother of principal using alternate name structure. Pattern consistent with efforts to obscure family connections in corporate records.",
     concerns: [
@@ -299,6 +299,28 @@ const executives: Person[] = [
       { name: "Bahaa Abdul Hussein Abdul Hadi", relationship: "Reports to (Chairman)" },
     ],
   },
+  {
+    id: "mohammed-zuhdi",
+    type: "person",
+    name: "Mohammed Zuhdi Abdul Hadi",
+    nameAr: "محمد زهدي عبد الهادي",
+    role: "Chief Cyber Security Officer",
+    note: "Also serves as Authorized Manager of shell company Wadi Al-Maalumat",
+    sanctionsRelevance: "QiCard's Chief Cyber Security Officer simultaneously serving as the operational front for documented shell company Wadi Al-Maalumat. Was granted sweeping powers over the shell company on April 22, 2020—just 5 months before Bahaa's September 2020 arrest. Timing suggests asset protection planning.",
+    concerns: [
+      "Dual role: Senior QiCard executive AND shell company manager",
+      "Controls Wadi Al-Maalumat despite only 30% ownership (classic nominee arrangement)",
+      "Granted 8 sweeping powers: signing contracts, controlling bank accounts, full legal representation",
+      "Power grant timing coincides with period before Bahaa's arrest",
+      "Shell company registered 1 month after Bahaa's first conviction",
+    ],
+    associatedEntities: ["Qi Card", "International Smart Card (ISC)", "Wadi Al-Maalumat"],
+    connections: [
+      { name: "Bahaa Abdul Hussein Abdul Hadi", relationship: "Reports to (Chairman)" },
+      { name: "Wadi Al-Maalumat", relationship: "Authorized Manager (30% owner)" },
+      { name: "Najm Hadi Najm", relationship: "Nominee co-owner at Wadi Al-Maalumat" },
+    ],
+  },
 ];
 
 const iraqCompanies: Company[] = [
@@ -392,6 +414,51 @@ const iraqCompanies: Company[] = [
     connections: [
       { name: "International Smart Card (ISC)", relationship: "Parent Company" },
       { name: "Haitham Laith", relationship: "Connected Executive (Abu Jinni)" },
+    ],
+  },
+  {
+    id: "wadi-almaalumat",
+    type: "company",
+    name: "Wadi Al-Maalumat",
+    nameAr: "شركة وادي المعلومات لتكنولوجيا المعلومات المحدودة",
+    jurisdiction: "iraq",
+    note: "High Confidence Shell · IT/Biometrics · Capital: 50M IQD",
+    ownership: "Mohammed Zuhdi Abdul Hadi: 30% (Managing Director) · Najm Hadi Najm: 70% (Passive)",
+    sanctionsRelevance: "Textbook shell company with QiCard executive Mohammed Zuhdi Abdul Hadi as operational front despite only 30% ownership. Business activities (biometrics, facial recognition, fingerprint systems) directly complement Qi Card's infrastructure. Registered February 2021—one month after Bahaa's first conviction. Powers granted to Mohammed Zuhdi in April 2020, just months before Bahaa's September arrest.",
+    concerns: [
+      "QiCard executive controls company as minority 30% shareholder",
+      "70% owner (Najm Hadi Najm) is passive nominee/straw man",
+      "Company activated during Bahaa's legal proceedings",
+      "Business (biometrics, facial recognition) complements Qi Card infrastructure",
+      "Suspicious share transfers occurred 2 months before Bahaa's arrest",
+      "Mohammed Zuhdi granted 8 sweeping powers despite minority ownership",
+    ],
+    keyFigures: ["Mohammed Zuhdi Abdul Hadi", "Najm Hadi Najm"],
+    connections: [
+      { name: "Mohammed Zuhdi Abdul Hadi", relationship: "Managing Director (30% owner)" },
+      { name: "Bahaa Abdul Hussein Abdul Hadi", relationship: "Beneficial Owner (via executive)" },
+      { name: "Qi Card", relationship: "Infrastructure complement" },
+    ],
+  },
+  {
+    id: "saqr-alrafidain",
+    type: "company",
+    name: "Saqr Al-Rafidain",
+    nameAr: "صقر الرافدين للطيران والشحن الجوي",
+    jurisdiction: "iraq",
+    note: "Aviation & Air Cargo · Capital: 1.5 Billion IQD · Najaf HQ",
+    sanctionsRelevance: "Heavily-capitalized aviation entity (1.5 Billion IQD—30x the IT shell companies) headquartered in Najaf, a major militia stronghold. Aviation and cargo capabilities could facilitate cross-border movement of funds, goods, or personnel outside normal banking channels.",
+    concerns: [
+      "Disproportionately large capital: 1.5B IQD (30x the IT shells)",
+      "Headquartered in Najaf—major militia-controlled city",
+      "Aviation/cargo business enables cross-border movement",
+      "Physical logistics capability complements financial network",
+      "International aviation and aircraft crew training capabilities",
+    ],
+    keyFigures: ["Bahaa Abdul Hussein Abdul Hadi"],
+    connections: [
+      { name: "Bahaa Abdul Hussein Abdul Hadi", relationship: "Connected via network" },
+      { name: "International Smart Card (ISC)", relationship: "Part of corporate network" },
     ],
   },
 ];
