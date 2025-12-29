@@ -798,7 +798,7 @@ const NetworkTree: React.FC = () => {
                     return (
                       <>
                         <span>{footnoteMatch[1]}</span>
-                        <span className="bg-amber-100 border-b-2 border-amber-400 px-0.5">{footnoteMatch[2]}</span>
+                        <span className="bg-slate-200 border-b-2 border-slate-500 px-0.5">{footnoteMatch[2]}</span>
                         <span>{" "}{footnoteMatch[3]}</span>
                       </>
                     );
@@ -1111,20 +1111,20 @@ const NetworkTree: React.FC = () => {
         if (allFootnotes.length === 0) return null;
         
         return (
-          <div className="mt-8 bg-amber-50/80 border-2 border-amber-300 rounded-xl p-6 shadow-sm">
+          <div className="mt-8 bg-slate-50 border border-slate-200 rounded-xl p-6 shadow-sm">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-8 h-8 rounded-full bg-amber-400 flex items-center justify-center">
+              <div className="w-8 h-8 rounded-full bg-slate-600 flex items-center justify-center">
                 <span className="text-white font-bold text-sm">!</span>
               </div>
-              <h3 className="text-sm font-bold uppercase tracking-wider text-amber-800">
+              <h3 className="text-sm font-bold uppercase tracking-wider text-slate-700">
                 Critical Footnotes
               </h3>
             </div>
             <div className="space-y-4">
               {allFootnotes.map((footnote, idx) => (
                 <div key={idx} className="flex gap-3">
-                  <span className="text-amber-700 font-bold text-base flex-shrink-0">^{footnote.id}</span>
-                  <div className="text-sm sm:text-base text-slate-800 leading-relaxed space-y-3">
+                  <span className="text-slate-600 font-bold text-base flex-shrink-0">^{footnote.id}</span>
+                  <div className="text-sm sm:text-base text-slate-700 leading-relaxed space-y-3">
                     {footnote.text.split('\n\n').map((paragraph, pIdx) => (
                       <p key={pIdx}>{paragraph}</p>
                     ))}
