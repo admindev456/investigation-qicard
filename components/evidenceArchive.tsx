@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import InvestigativeReportsGrid from "@/components/investigativeReportsGrid";
 
 type DocFile = {
   label: string;
@@ -139,7 +140,7 @@ const groups: EvidenceGroup[] = [
         title: "Shibl al-Zaydi / Muhammad al-Bawi",
         keyFact: "IRGC coordination and Hezbollah financing",
         files: {
-          originals: [{ label: "Original", filename: "tpic30.png" }],
+          originals: [{ label: "Original", filename: "tpic30.jpg" }],
           translations: [{ label: "English", filename: "tpic30english.png" }],
         },
       },
@@ -306,6 +307,9 @@ const EvidenceArchive: React.FC = () => {
             </div>
           </div>
         ))}
+
+        {/* Live Investigative Reports Section */}
+        <InvestigativeReportsGrid />
       </div>
     </section>
     </>
