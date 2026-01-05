@@ -477,7 +477,7 @@ const VideoCard: React.FC<{ video: TestimonialVideo }> = ({ video }) => {
               <div className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
             </div>
             <p className="text-sm text-slate-800 leading-relaxed italic">
-              "{currentTranscript}"
+              &ldquo;{currentTranscript}&rdquo;
             </p>
           </div>
         ) : (
