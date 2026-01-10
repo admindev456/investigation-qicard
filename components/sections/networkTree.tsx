@@ -921,7 +921,9 @@ const NetworkTree: React.FC = () => {
 
                 {expandedSections.executives && (
                   <div className="space-y-1 ml-7 border-l border-dashed border-slate-200 pl-4">
-                    {executives.map((person) => (
+                    {executives
+                      .filter((person) => person.id !== "falah-fayyadh")
+                      .map((person) => (
                       <button
                         key={person.id}
                         onClick={() => handleSelect(person)}
