@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Merriweather } from "next/font/google";
 import "./globals.css";
+import PageTracker from "@/components/pageTracker";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const merr = Merriweather({ subsets: ["latin"], weight: ["300", "400", "700", "900"], variable: "--font-display" });
@@ -17,7 +18,10 @@ export default async function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${merr.variable} font-sans bg-white`}>{children}</body>
+      <body className={`${inter.variable} ${merr.variable} font-sans bg-white`}>
+        <PageTracker />
+        {children}
+      </body>
     </html>
   );
 }
